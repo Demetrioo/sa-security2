@@ -1,0 +1,131 @@
+body{
+    font-family: arial;
+    margin: 0;
+    background-color: #1b98e0;
+}
+
+header{
+    text-align: center;
+    border-top: 1px solid #13293d;
+    border-bottom: 2px solid #e8f1f2;
+    padding-left: 20px;
+    color: #e8f1f2;
+    background-color: #13293d;
+}
+
+form{
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 0.75em;
+    width: 550px;
+    padding: 15px;
+    background-color: #e8f1f2;
+}
+
+div h3{
+    text-align: center;
+    color: #13293d;
+}   
+
+hr{
+    border: 1px solid #13293d;
+}
+
+.container{
+    display: inline;
+}
+
+.input-container img{
+    position:absolute;
+    width: 30px;
+    height: 20px;
+    margin-top: 16px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.input-field{
+    width: 90%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 10px;
+    border: 1px solid #e8f1f2;
+    border-bottom: 1px solid #13293d;
+    border-radius: 0,75em;
+}
+
+.input-field:hover{
+    background-color: #e8f1f2;
+}
+
+label{
+    margin-left: 10px;
+    font-size: 4mm;
+    color: #13293d;
+}
+
+
+.hr-bottom{
+    margin-top: 25px;
+    border: 1px solid #13293d;
+}
+
+.button{
+    text-align: center;
+}
+
+.btn-cadastrar{
+    width: 30%;
+    padding: 6px;
+    margin-top: 16px;
+    font-weight: bold;
+    border: 1px solid #247ba0;
+    border-radius: 0.35em;
+    background-color: #13293d;
+    color: #e8f1f2;
+    cursor: pointer;
+}
+
+.btn-cadastrar:hover{
+    background-color: #006494;
+}
+
+.cadLog{
+    text-decoration: none;
+    color: #13293d;
+    font-weight: bold;
+}
+
+.cadLog:hover{
+    color: #1b98e0;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 25px;
+    text-align: center;
+    text-align: center;
+    border-bottom: 1px solid #13293d;
+    border-top: 2px solid #e8f1f2;
+    background-color: #13293d;
+    color: #e8f1f2;
+    padding-bottom: 8%;
+    align-items: center;
+  }
+  
+  footer li{
+      list-style: none;
+      margin-top: 75px;
+  }
+
+  footer li a{
+    text-decoration: none;
+    color: #e8f1f2;
+    margin-left: 24px;
+  }
+
+@media screen and(max-width: 600px){
+    body{
+        background-color: #1b98e0;
+    }
+}

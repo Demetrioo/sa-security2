@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/cadlog.css">
+</head>
+<header>
+    <h2>Security Motorsport</h2>
+</header>
+<body>
+    <form action="#">
+        <div class="title">
+            <h3>Cadastro</h3>
+        </div>
+        <hr>
+
+        <div class="container">
+            
+            <div class="input-container">
+                <label>Nome:</label>
+                <input type="text" class="input-field" id="nome"  placeholder=" ex: João Araújo dos Santos">
+            </div>
+            
+            <div class="input-container">
+                <label>Email:</label>
+                <input type="email" class="input-field" id="email" placeholder="ex: joaoaraujo@gmail.com">
+            </div>
+            
+            <div class="input-container">
+                <label>Senha:</label>
+                <input type="password" class="input-field" id="senha">
+            </div>
+            
+            <div class="input-container">
+                <label>Confirmar senha:</label>
+                <input type="password" class="input-field" id="confirme">
+            </div>
+        </div>
+        <hr class="hr-bottom">
+
+        
+            <div class="button">
+                <button type="button" class="btn-cadastrar" onclick="cadastrar()">Cadastrar</button>
+            </div>
+        
+            
+            <a href="./login.html" class="cadLog">Já possui conta?</a>
+    </form>
+    <footer>
+        <ul class="links">
+            <li>
+                <a href="./sobrenos.html">Quem somos nós?</a>
+                <a href="./suporte.html">Como podemos ajudar?</a>
+                <a href="./suporte.html">Nossas redes sociais!</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="./login.js"></script>
+</body>
+</html>
