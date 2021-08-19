@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SA</title>
+  <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+  <header><img class="img-logo" src="./img/img/logo.png" alt=""></header>
+
+  <!-- navbar -->
+  <nav>
+      <ul class="navegador">
+          <li><a href="./index.html" class="active">Início</a></li>
+          <li><a href="./outlet.html">Outlet</a></li>
+          <li><a href="./corrida.html">Corrida</a></li>
+          <li><a href="./moto.html">Moto</a></li>
+          <li><a href="./kart.html">Kart</a></li>
+          <li style="float:right"><a class="active" href="#carrinho">🛒</a></li>
+        </ul>
+
+  </nav>
+  
+
+  <!-- corousel -->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="./img/img/imgincial3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="./img/Ralllllllllllyyyyyy.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="./img/imginicial1.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <br>
+    <br>
+
+    <h2 class="nominho">Produtos em Destaque!</h2>
+    
+    <!-- card -->
+    <ul class="cards">
+      <li>
+        <a href="" class="card">
+          <img src="./imgmoto/capacetemoto3.png" class="card__image" alt="" />
+          <div class="card__overlay">
+            <div class="card__header">                   
+              <div class="card__header-text">
+                <h3 class="card__title">Capacete Fox V1 Mvrs Prix Fluo Orange</h3>            
+                <span class="card__status">R$1.099,00</span>
+              </div>
+            </div>
+            <p class="card__description">Produto destaque n°1.</p>
+          </div>
+        </a>      
+      </li>
+      <li>
+        <a href="" class="card">
+          <img src="./imgkart/macacãokart2.jpg" class="card__image" alt="" />
+          <div class="card__overlay">        
+            <div class="card__header">             
+              <div class="card__header-text">
+                <h3 class="card__title">Macacão Fem. Savancini Absolut Preto</h3>
+                <span class="card__status">R$349,00</span>
+              </div>
+            </div>
+            <p class="card__description">Produto destaque n°2.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="" class="card">
+          <img src="./imgracing/capaceteracing1.png" class="card__image" alt="" />
+          <div class="card__overlay">
+            <div class="card__header">                
+              <div class="card__header-text">
+                <h3 class="card__title">Protetor Cervical Hans Device Sport</h3>        
+                <span class="card__status">R$5.799,90</span>
+              </div>
+            </div>
+            <p class="card__description">Produto destaque n°3.</p>
+          </div>
+        </a>
+      </li>  
+    </ul>
+
+    <br>
+    <br>
+
+    <small class="nominho">Produtos em</small><br>
+    <strong class="nominho">Promoção!</strong>
+    
+    <!-- card -->
+    <ul class="cards">
+      <li>
+        <a href="" class="card">
+          <img src="./imgkart/sapatilha1.jpg" class="card__image" alt="" />
+          <div class="card__overlay">
+            <div class="card__header">                
+              <div class="card__header-text">
+                <h3 class="card__title">Sapatilha Everlast Jump Fem.</h3>       
+                <span class="card__status">R$99,00</span>
+              </div>
+            </div>
+            <p class="card__description">Promoção n°1.</p>
+          </div>
+        </a>      
+      </li>
+      <li>
+        <a href="" class="card">
+          <img src="./imgracing/luvaracing1.png" class="card__image" alt="" />
+          <div class="card__overlay">        
+            <div class="card__header">             
+              <div class="card__header-text">
+                <h3 class="card__title">Luva Mattos Racing Adventure</h3>
+                <span class="card__status">R$59,90</span>
+              </div>
+            </div>
+            <p class="card__description">Promoção n°2.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="" class="card">
+          <img src="./imgracing/sapatilharacing1.png" class="card__image" alt="" />
+          <div class="card__overlay">
+            <div class="card__header">                 
+              <div class="card__header-text">
+                <h3 class="card__title">Sapatilha Sparco Slalom RB-3.1 Azul</h3>        
+                <span class="card__status">R$749,90</span>
+              </div>
+            </div>
+            <p class="card__description">Promoção n°3.</p>
+          </div>
+        </a>
+      </li>  
+    </ul>
+<footer>
+    <div class="container">
+        <ul class="links">
+          <li>
+            <a href="./sobrenos.html">Quem somos nós </a>
+            <a href="./suporte.html">Como podemos ajudar? </a>
+            <a href="./suporte.html">Nossas redes sociais! </a>
+          </li>
+
+        </ul>
+
+    </div>
+      
+    </footer>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+
+</body>
+
+</html>

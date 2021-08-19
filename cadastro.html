@@ -4,61 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="./cssC/loginCadastro.css">
+    <title>Cadastro - Security Motorsport</title>
+    <link rel="stylesheet" href="./cssC/logcad.css">
 </head>
-<body  background="./img//parede1.jpg" alink="orange" vlink="white" link="#13293d">
+<header>
+    <img src="./img/logo3.png" alt="">
+</header>
+<body>
+    <div class="container">
+        <h3 class="ctn-title">Cadastro</h3>
+        <hr>
+        <div class="input-container">
+            <label>Nome:</label>
+            <input type="text" class="input-field" id="nome" placeholder=" ex: João Araújo dos Santos">
+        </div>
+            <div class="input-container">
+            <label>Email:</label>
+            <input type="email" class="input-field" id="email" placeholder=" ex: joaoaraujo@gmail.com">
+        </div>
+            <div class="input-container">
+            <label>Senha:</label>
+            <input type="password" class="input-field" id="senha">
+        </div>
+            <div class="input-container">
+            <label>Confirme sua senha:</label>
+            <input type="password" class="input-field" id="confirme">
+        </div>
+        <hr>
 
+        <div class="button">
+            <button type="button" class="btn-cadlog" onclick="cadastrar()">Cadastrar</button>
+        </div>
+    
+        <a href="./login.html" class="cadlog">Já possui conta?</a>
+        
+    </div>
 
-    <center>
-        <header>
-
-            <h1><b>Cadastro</b></h1>
-            
-        </header><br><br><br><br>
-    </center>
+    
+    <footer>
+        <div class="container-footer">
+            <ul class="links">
+              <li>
+                <a href="./sobrenos.html">Quem somos nós </a>
+                <a href="./suporte.html">Como podemos ajudar? </a>
+                <a href="./suporte.html">Nossas redes sociais! </a>
+              </li>
+    
+            </ul>
+    
+        </div>
           
-    
-        <div class="conteiner">
-            <center>
-                    <div class="nome">
-                        <label for="nome">Nome:</label> <br><br>
-                        <input type="text" id="nome" placeholder="Arthurzinho da Silva">
-                    </div><br>
-
-                    <div class="email">
-                        <label for="email">Email:</label> <br><br>
-                        <input type="text" id="email" placeholder="arthurzinho1313@gmail.com">
-                    </div><br>
-
-                    <div class="senha">
-                        <label for="senha">Senha:</label> <br><br>
-                        <input type="text" id="senha" placeholder="12345">
-                    </div><br>
-
-                    <div class="confirmar">
-                        <label for="confirmar">Confirmar Senha:</label> <br><br>
-                        <input type="text" id="confirme" placeholder="12345">
-                    </div><br><br>
-                
-
-                    <div class="aviso">
-                        <button onclick="enter" id="cad" ><b>Confirmar</b></button>
-                    </div>
-            </center>
-        <a id="log" href=".//login.html" target="blank"><b>Faça Login</b></a>
-     
-        </div><br><br><br><br>
-
-
-    <center>
-        <footer>
-
-            <h2 id="hh">Fale conosco</h2>
-
         </footer>
-    </center>
-    
-
 </body>
 </html>

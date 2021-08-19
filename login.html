@@ -1,59 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Login</title>
-   <link rel="stylesheet" href="./cssC/loginCadastro.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Security Motorsport</title>
+    <link rel="stylesheet" href="./cssC/logcad.css">
 </head>
-<body background="./img//parede1.jpg" alink="orange" vlink="blue" link="black">
- 
-           <center>
-                <header>
-                    <h1>Login</h1>
-                </header><br><br><br><br>
-            </center>
-
-
-          
-        
-      <div class="conteiner">
-            <center>
-  
-                  <div class="email">
-                    <label for="email_login">Seu e-mail</label> <br><br>
-                    <input id="email" name="email_login" required="required" type="text" placeholder="contato@htmlecsspro.com"/>
-                  </div><br><br>
-                  
-                  <div class="senha">
-                    <label for="senha_login">Sua senha</label><br> <br>
-                    <input id="senha" name="senha_login" required="required" type="password" placeholder="1234" />
-                  </div><br><br>
-                  
-                  <div class="row">
-                    <input type="checkbox" name="manterlogado" id="manterlogado" value="" />
-                    <label for="manterlogado">Lembrar usuário</label>
-                  </div><br><br>
-                  
-                  <div class="row">
-                    <button type="button" id="cad" onclick="logar()">Entrar</button>
-                  </div><br>
+<header>
+    <img src="./img/logo3.png" alt="">
+</header>
+<body>
+    <div class="container">
+        <h3 class="ctn-title">Login</h3>
+        <hr>
+        <div class="input-container">
+            <label>Email:</label>
+            <input type="email" class="input-field" id="email" placeholder=" ex: joaoaraujo@gmail.com">
+        </div>
+            <div class="input-container">
+            <label>Senha:</label>
+            <input type="password" class="input-field" id="senha">
+            <img src="./img/eye.svg">
+        </div>
+        <hr>
             
-            </center>
-                  <b><a id="log" href="./cadastro.html" target="self">Cadastre-se</a></b>         
-      </div> <br><br><br><br>
 
-
-      <center>
-            <footer>
+        <div class="button">
+            <button type="button" class="btn-cadlog" onclick="cadastrar()">Entrar</button>
+        </div>
     
-                <h2 id="hh">Fale conosco</h2>
-            </footer>
-      </center>
-
-
+        <a href="./cadastro.html" class="cadlog">Não possui conta?</a>
         
-         <script src="./js/cadastro.js"></script>
+    </div>
+
+    
+    <footer>
+       <div class="container-footer">
+            <ul class="links">
+              <li>
+                <a href="./sobrenos.html">Quem somos nós </a>
+                <a href="./suporte.html">Como podemos ajudar? </a>
+                <a href="./suporte.html">Nossas redes sociais! </a>
+              </li>
+    
+            </ul>
+    
+        </div>
+          
+        </footer> 
 </body>
 </html>

@@ -22,42 +22,56 @@ body{
     top: 0;
     z-index: 3;
   }
+  
   header{
+      background-color: #13293d;
+      color: #e8f1f2;
+      padding: 20px;
+      margin-bottom: -5px;
+      text-align: center;
+      font-weight: bold;
+      font-size: x-large;
+    }
 
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: #13293d;
-    color: white;
-    padding: 5px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 50px;
-}
+    header img{
+      width: 35%;
+    }
+
   
-  footer{
-    color: white;
-    justify-content: center;
-    background-color: #13293d;
-    padding: 1%;
-    width: 100%;
-    display: flex;
-  }
-  
-  footer li{
-    list-style-type: none;
-    display: flex;
-  }
+    footer{
+      background-color: #13293d;
+      border-top: 2px solid #e8f1f2;
+      padding: 2%;
+      color: #e8f1f2;
+      display: flex;
+      margin: 0;
+    
+    }
+     
+    footer li{
+      list-style-type: none;
+      display: flex;
+    }
   
 
-  .navegador{
+  .navegador-pgs{
+    border-bottom: 2px solid #e8f1f2;
+    background-color:#13293d;
     list-style-type: none;
-    margin: 0%;
-    padding: 20px;
+    margin: 0;
+    padding: 16px;
     overflow: hidden;
-    background-color: #13293d;
   }
   
   li {
     float: left;
+  }
+
+  .activec img{
+    position: absolute;
+    width: 30px;
+    margin-left: -12px;
+    margin-top: -6px;
   }
   
   
@@ -164,7 +178,7 @@ body{
       to {opacity: 1}
     }
     
-    @media only screen and (max-width: 485px) {
+    @media only screen and (max-width: 600px) {
       .prev, .next,.text {font-size: 11px}
       .img-logo{
         width: 100%;
@@ -200,6 +214,7 @@ body{
       margin-top: 1%;
       margin-bottom: 1%;
     }
+    
 
     /* IMAGENS PRODUTOS */
     .escola #cap{
@@ -207,8 +222,8 @@ body{
       margin-left: 5%;
       margin-top: 1%;
       margin-bottom: 5%;
-      width: 50%;
-      border: 4px solid red;
+      width: 70%;
+      
      
     }
       /* IMAGENS PRODUTOS - KART -------> .escola #cap */
@@ -286,17 +301,25 @@ body{
         margin-left: 5%;
         margin-top: 1%;
         margin-bottom: 5%;
-        width: 45%;
+        width: 60%;
       }
 
         /* CALÇAS E MACACÃO*/
       
-        .escola #cap-calcasout2{
+        .escola #cap-calcasmacout{
         margin-right: 30%;
         margin-left: 5%;
         margin-top: 1%;
         margin-bottom: 5%;
-        width: 35%;
+        width: 75%;
+      }
+
+      .escola #cap-calcaout2{
+        margin-right: 30%;
+        margin-left: 5%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        width: 40%;
       }
       
        /* BOTAS ------> .escola #cap */
@@ -342,7 +365,7 @@ body{
     display: flex;
     justify-content: center;
     font-size: 30px;
-    border: 4px solid red;
+    
   }
   #tamanho{
     font-size: large;
@@ -352,8 +375,75 @@ body{
     border: 2px solid #1b98e0;
     border-radius: 2px;
   }
+
+
+  /* DESCRIÇAO */
+  #titulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  }
+      #desconto{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color:white
+   
+      }
+      #cor{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: orange;
+        text-align: left;
+      }
+      /* select edição */
+  #selecionar{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+   
+  }
+  #descricao{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+  }
+  #conteudo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    line-height: 0,5%;
+  }
+  #butao{
+    background-color: #e8f1f2;
+    outline: none;
+    border: 1px solid #13293d;
+    border-radius: 0.75em;
+    margin-top: 2px;
+    cursor: pointer;
+    margin-bottom: auto;
+    width: 120px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+#butao:hover{
+  color: #13293d;
+  background-color: #1b98e0;
+}
+
+
+    #adicionais{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      color: white;
+    }
+    .descricao{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      color: white;
+    }
   
-  
+
+    
 
     
     

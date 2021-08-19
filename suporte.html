@@ -4,66 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fale Conosco</title>
-    <link rel="stylesheet" href="./cssC/style.css">
+    <title>Fale Conosco! -  Security Motorsport</title>
+    <link rel="stylesheet" href="./cssC/logcad.css">
 </head>
-<body background="./img//parede1.jpg" >
+<header>
+    <img src="./img/logo3.png" alt="">
+</header>
+<body>
+    <div class="container">
+        <h3 class="ctn-title">Fale Conosco!</h3>
+        <hr>
+        <div class="input-container">
+            <label>Nome:</label>
+            <input type="text" class="input-field" id="nome" placeholder=" ex: João Araújo dos Santos">
+        </div>
+            <div class="input-container">
+            <label>Email:</label>
+            <input type="email" class="input-field" id="email">
+        </div>
+        
+        <div class="input-container">
+            <label>Mensagem:</label>
+            <textarea class="input-field" style="resize: none; border-bottom: 1px solid #13293d; width: 90%;" name="" id="" cols="35" rows="10" 
+                placeholder="Deixe aqui sua crítica, sugestão, elogio, dúvida ou reclamação, sobre seu produto e/ou sobre nossa empresa!"></textarea>
+        </div>
+        <hr>
+            
 
-   <center> 
-        <header>
-
-            <h1>Fale Conosco!</h1>
-
-        </header>
-    </center
+        <div class="button">
+            <button type="button" class="btn-cadlog" onclick="cadastrar()">Enviar</button>
+        </div>
     
-    >    
-        <div class="container">
- 
-                <!-- titulo -->
-            <div class="row-title">
-               
-                    </div>
- 
-                <!-- nome -->
-                <div class="nome" id="nome"><br><br>
-                    
-                    <label class="label-nome" id="label-nome">Nome:</label>
-                        <div class="col-input" id="col-input">
-                            <input class="input-nome" type="text" id="input-nome" placeholder="Digite seu nome">
-                                </div>
-                                    </div>
-                        
-                <!-- email -->
-                <div class="email" id="email">
-                    <label class="label-email" id="label-email">Email:</label>
-                        <div class="col-input" id="col-input">
-                            <input class="input-email" type="email" id="input-email" placeholder="Digite seu email">
-                                </div>
-                                    </div>
-                    
-                <!-- mensagem -->
-                <div class="mensagem" id="mensagem">
-                    <label class="label-mensagem" id="label-mensagem">Mensagem:</label>
-                        <div class="col-input">
-                            <textarea class="input-mensagem" id="input-mensagem" cols="30" rows="10" style="resize: none; color: black; font-family: Arial, Helvetica, sans-serif;"
-                            placeholder="Deixe aqui sua crítica, sugestão, elogio, dúvida ou reclamação, sobre seu produto e/ou sobre nossa empresa!"></textarea>
-                                </div>
-                                    </div>
-                
-                <!-- botão -->
-                <div class="button">
-                    <button class="button-class" type="submit">Enviar</button>
-                </div>
-</div><br><br>
+        
+    </div>
 
-<center>
+    
     <footer>
-
-        <h2 id="hh">Entre em contato: (48)32656743</h2>
-    </footer>
-</center>
-
-
+        <div class="container-footer">
+            <ul class="links">
+              <li>
+                <a href="./sobrenos.html">Quem somos nós </a>
+                <a href="./suporte.html">Como podemos ajudar? </a>
+                <a href="./suporte.html">Nossas redes sociais! </a>
+              </li>
+    
+            </ul>
+    
+        </div>
+          
+        </footer>
 </body>
 </html>

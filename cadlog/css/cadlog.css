@@ -75,7 +75,7 @@ label{
 }
 
 .btn-cadastrar{
-    width: 30%;
+    width: 3%;
     padding: 6px;
     margin-top: 16px;
     font-weight: bold;
@@ -101,27 +101,28 @@ label{
     font-weight: bold;
 }
 
+
 footer{
-    margin-top: 25px;
-    text-align: center;
-    text-align: center;
-    border-bottom: 1px solid #13293d;
     border-top: 2px solid #e8f1f2;
     background-color: #13293d;
-    color: #e8f1f2;
-    padding-bottom: 8%;
-    align-items: center;
+    padding: 5%;
+    width: 100%;
+    color: white;
+    display: flex;
   }
   
   footer li{
-      list-style: none;
-      margin-top: 75px;
+    list-style-type: none;
+    display: flex;
   }
 
-  footer li a{
+  li a {
+    display: block;
+    color: white;   
+    padding: 15px;
     text-decoration: none;
-    color: #e8f1f2;
-    margin-left: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
   }
 
 @media screen and(max-width: 600px){
