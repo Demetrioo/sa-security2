@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - Security Motorsport</title>
     <link rel="stylesheet" href="./cssC/logcad.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <header>
     <img src="./img/logo3.png" alt="">
@@ -20,26 +21,34 @@
         </div>
             <div class="input-container">
             <label>Email:</label>
-            <input type="email" class="input-field" id="email" placeholder=" ex: joaoaraujo@gmail.com">
+            <input type="email" class="input-field" id="user" placeholder=" ex: joaoaraujo@gmail.com">
         </div>
             <div class="input-container">
             <label>Senha:</label>
-            <input type="password" class="input-field" id="senha">
+            <input type="password" class="input-field" id="pass">
         </div>
             <div class="input-container">
             <label>Confirme sua senha:</label>
             <input type="password" class="input-field" id="confirme">
         </div>
         <hr>
-
+ 
         <div class="button">
-            <button type="button" class="btn-cadlog" onclick="cadastrar()">Cadastrar</button>
+            <button type="button" class="btn-cadlog" onclick="Cadastrar()">Cadastrar</button>
+            <script>
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Your work has been saved',
+                showConfirmButton: false,
+                timer: 1500
+              })</script>
         </div>
     
         <a href="./login.html" class="cadlog">Já possui conta?</a>
         
     </div>
-
+ 
     
     <footer>
         <div class="container-footer">
@@ -55,5 +64,6 @@
         </div>
           
         </footer>
+        <script src="./JSC/cadlog.js"></script>
 </body>
 </html>

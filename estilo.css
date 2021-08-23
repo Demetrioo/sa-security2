@@ -21,8 +21,9 @@ nav{
   top: 0;
   z-index: 3;
 }
- 
- 
+
+
+
  
  
 footer{
@@ -42,15 +43,13 @@ footer li{
  
  
 .navegador{
- background-color:#13293d;
+ 
+  border-bottom: 2px solid #e8f1f2;
+  background-color:#13293d;
   list-style-type: none;
-  margin: 0%;
+  margin: 0;
   padding: 16px;
   overflow: hidden;
-  margin-bottom: 2%;
-  margin-left: 4%;
-  margin-right: 4%;
-  border-radius: 4px;
  
 }
 
@@ -119,11 +118,10 @@ li a {
  
  
 header{
-  border-bottom: 2px solid #e8f1f2;
   background-color: #13293d;
   color: #e8f1f2;
   padding: 20px;
-  margin-bottom: 24px;
+  margin-bottom: -5px;
   text-align: center;
   font-weight: bold;
   font-size: x-large;
@@ -131,22 +129,25 @@ header{
 
 header img{
   width: 35%;
+  margin-left: 50px;
+
 }
  
   .prev, .next {
     cursor: pointer;
     position: absolute;
     margin-right: 1px;
-    top: 66%;
+    top: 50%;
     width: auto;
     padding: 20px;
-    margin-top: 16px;
+    margin-top: 0;
     color: white;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    margin-right: -7px;
   }
  
   
@@ -156,7 +157,8 @@ header img{
   }
   
   .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: #1b98e0;
+    
   }
   
   .text {
@@ -182,14 +184,14 @@ header img{
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: white;
+    background-color: #e8f1f2;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
   
   .active, .dot:hover {
-    background-color: #006494;
+    background-color: #13293d;
    
   }
   .activec{
@@ -261,7 +263,7 @@ header img{
     border-radius: calc(var(--curve) * 1px);
     overflow: hidden;
     text-decoration: none;
-    background-color: #050309
+    background-color: #13293d;
   }
   
   .card__image {      
@@ -293,7 +295,7 @@ header img{
     gap: 2em;
     padding: 2em;
     border-radius: calc(var(--curve) * 1px) 0 0 0;    
-    background-color: #050309;
+    background-color: #13293d;
     transform: translateY(-100%);
     transition: .2s ease-in-out;
   }
@@ -346,7 +348,8 @@ header img{
   .card__description {
     padding: 0 2em 2em;
     margin: 0;
-    color: white;
+    color: #e8f1f2;
+    background-color: #13293d;
     font-family: "MockFlowFont";   
     display: -webkit-box;
     -webkit-box-orient: vertical;
