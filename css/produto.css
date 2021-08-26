@@ -216,95 +216,103 @@ body{
     }
     
 
-    /* IMAGENS PRODUTOS */
-    .escola #cap{
+    /* <-------------------------------------> IMAGENS PRODUTOS <-------------------------------------> */
+
+
+    /* <--------> IMAGENS OUTLET <--------> */
+
+    /* BALACLAVAS OUTLET */
+      .escola #balaclava1{
+      margin-right: 30%;
+      margin-left: 5%;
+      margin-top: 1%;
+      margin-bottom: 5%; 
+      width: 40%;
+      }
+      .escola #balaclava2{
       margin-right: 30%;
       margin-left: 5%;
       margin-top: 1%;
       margin-bottom: 5%;
-      width: 70%;
-      
-     
-    }
-       /* IMAGENS PRODUTOS - KART */
+      width: 40%;
+      }
+      .escola #balaclava3{
+      margin-right: 30%;
+      margin-left: 5%;
+      margin-top: 1%;
+      margin-bottom: 5%; 
+      width: 40%;
+      }
 
-       .escola #cap-capacetekart{
-        margin-right: 30%;
-        margin-left: 5%;
-        margin-top: 1%;
-        margin-bottom: 5%;
-         width: 50%;
-       }
+      /* CONJUNTOS & JAQUETAS OUTLET */
+      .escola #conjuntout1{
+       margin-right: 30%;
+       margin-left: 5%;
+       margin-top: 1%;
+       margin-bottom: 5%;
+       width: 70%; 
+      }
 
+      .escola #conjuntout2{
+      margin-right: 30%;
+      margin-left: 5%;
+      margin-top: 1%;
+      margin-bottom: 5%;
+      width: 60%;
+      }
 
-      
-      
-      /* IMAGENS PRODUTOS - MOTO */
-    
-      /* CAPACETES */
-      .escola #cap-capacetemoto{
+      .escola #jaquetaout{
+      margin-right: 30%;
+      margin-left: 5%;
+      margin-top: 1%;
+      margin-bottom: 5%;
+      width: 60%;
+      }
+
+      /* CALÇAS E MACACAO OUTLET */
+      .escola #calcaout1{
+      margin-right: 30%;
+      margin-left: 5%;
+      margin-top: 1%;
+      margin-bottom: 5%;
+      width: 75%;
+      }
+
+      .escola #calcaout2{
       margin-right: 30%;
       margin-left: 5%;
       margin-top: 1%;
       margin-bottom: 5%;
       width: 45%;
-    }
-      /* MACACÕES */
+      }
 
-      .escola #cap-macacaomoto1{
+      .escola #macacaoout{
+      margin-right: 30%;
+      margin-left: 5%;
+      margin-top: 1%;
+      margin-bottom: 5%;
+      width: 75%;
+      }
+
+      /* BOTAS OUTLET */
+
+      .escola #botaout1{
         margin-right: 30%;
         margin-left: 5%;
         margin-top: 1%;
         margin-bottom: 5%;
-        width: 35%;
-      }
+        width: 50%;
+        }
 
-      .escola #cap-macacaomoto2{
+      .escola #botaout2{
         margin-right: 30%;
         margin-left: 5%;
         margin-top: 1%;
         margin-bottom: 5%;
-        width: 45%;
-      }
+        width: 50%;
+        }
 
-      .escola #cap-macacaomoto3{
-        margin-right: 30%;
-        margin-left: 5%;
-        margin-top: 1%;
-        margin-bottom: 5%;
-        width: 30%;
-      }
-
-      /* LUVAS -------> .escola #cap */
-      
-      
-      /* BOTAS */
-      .escola #cap-botamoto{
-        margin-right: 30%;
-        margin-left: 5%;
-        margin-top: 1%;
-        margin-bottom: 5%;
-        width: 40%;
-      }
-
-      /* IMAGENS PRODUTOS - OUTLET */
-
-      /* BALACLAVAS */
-
-      .escola #cap-balaclavaout{
-        margin-right: 30%;
-        margin-left: 5%;
-        margin-top: 1%;
-        margin-bottom: 5%;
-        width: 35%;
-      }
-
-      /* CONJUNTOS -------> .escola #cap */
-
-      
-
-      /* JAQUETA */
-      .escola #cap-jaquetaout{
+      .escola #botaout3{
         margin-right: 30%;
         margin-left: 5%;
         margin-top: 1%;
@@ -312,55 +320,355 @@ body{
         width: 60%;
       }
 
-        /* CALÇAS E MACACÃO*/
-      
-        .escola #cap-calcasmacout{
+      /* <--------> IMAGENS CORRIDA <--------> */
+
+      /* CAPACETES RACING */
+       
+      .escola #capaceteracing1{
         margin-right: 30%;
         margin-left: 5%;
         margin-top: 1%;
         margin-bottom: 5%;
-        width: 75%;
+        width: 60%;
       }
-
-      .escola #cap-calcaout2{
+      .escola #capaceteracing3{
         margin-right: 30%;
         margin-left: 5%;
         margin-top: 1%;
         margin-bottom: 5%;
-        width: 40%;
-      }
-      
-       /* BOTAS ------> .escola #cap */
-
-      
-      /* IMAGENS PRODUTOS - CORRIDA */
-
-        /* CAPACETES ------> .escola #cap */
-
+        width: 70%;
         
-        /* MACACÕES */
+      }
+        
+      .escola #capaceteracing2{
+        margin-right: 30%;
+        margin-left: 5%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        width: 60%;
+        
+      }
 
-        .escola #cap-macacaoracing3{
+      /* MACACAO RACING */
+      .escola #macacaoracing1{
+        margin-right: 30%;
+        margin-left: 5%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        width: 65%;
+        }
+
+        .escola #macacaoracing2{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 65%;
+          
+        }
+        
+        .escola #macacaoracing3{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+
+        /* LUVAS RACING */
+
+        .escola #luvaracing1{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 55%;
+          
+        }
+        .escola #luvaracing2{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 55%;
+          
+        }
+        .escola #luvaracing3{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 65%;
+          
+        }
+
+        /* SAPATILHAS RACING */
+
+        .escola #sapatilharacing1{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 65%;
+          
+        }
+        .escola #sapatilharacing2{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 65%;
+          
+        }
+          
+        .escola #sapatilharacing3{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+         
+        /* <--------> IMAGENS MOTO<--------> */
+
+        /* CAPACETES MOTO */
+
+        .escola #capacetemoto1{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+
+        .escola #capacetemoto2{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+
+        .escola #capacetemoto3{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+
+        /* MACACAO MOTO */
+
+        .escola #macacaomoto1{
           margin-right: 30%;
           margin-left: 5%;
           margin-top: 1%;
           margin-bottom: 5%;
           width: 40%;
+          
         }
-
-        /* LUVAS  ------> .escola #cap */
-
-        
-        /* SAPATILHAS ------> .escola #cap */
-
-         .escola #cap-sapatilharacing3{
+        .escola #macacaomoto2{
           margin-right: 30%;
           margin-left: 5%;
           margin-top: 1%;
           margin-bottom: 5%;
-          width: 40%;
+          width: 50%;
+          
         }
 
+        .escola #macacaomoto3{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 35%;
+          
+        }
+
+        /* LUVAS MOTO */
+ 
+        .escola #luvamoto1{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+        .escola #luvamoto2{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+        .escola #luvamoto3{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 60%;
+          
+        }
+
+        /* BOTAS MOTO */
+
+        .escola #botamoto1{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+        .escola #botamoto2{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+        .escola #botamoto3{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+
+        /* <--------> IMAGENS MOTO<--------> */
+
+        /* CAPACETES KART */
+
+        .escola #capacetekart1{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 45%;
+          
+        }
+
+        .escola #capacetekart2{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+        .escola #capacetekart3{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+
+        /* MACACAO KART */
+
+        .escola #macacaokart1{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+        .escola #macacaokart2{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 70%;
+          
+        }
+        .escola #macacaokart3{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 70%;
+          
+        }
+
+        /* LUVAS KART */
+
+        .escola #luvakart1{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 60%;
+          
+        }
+        .escola #luvakart2{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+        .escola #luvakart3{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 70%;
+          
+        }
+
+        /* SAPATILHAS KART */
+        .escola #sapatilhakart1{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+        .escola #sapatilhakart2{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+        .escola #sapatilhakart3{
+          margin-right: 30%;
+          margin-left: 5%;
+          margin-top: 1%;
+          margin-bottom: 5%;
+          width: 50%;
+          
+        }
+
+
+
+          
+          
+          
+        
+        
+      
+
+
+      
+      
+      
+     
+    
 
   .descrito{
     color: white;
