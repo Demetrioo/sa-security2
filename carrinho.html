@@ -52,7 +52,7 @@
                 for(let item of carrinho ){
 
                     let divCarrinho = document.getElementById("divCarrinho");
-
+                    let total = item.valor * item.quantidade;
 
                     let x = ` <div class="container-car">
                         <div class="col-P">
@@ -65,7 +65,7 @@
                             <div class="quantidade">${item.quantidade} </div>
                         </div>
                         <div class="col-P">
-                            <div class="valor">${item.valor} </div>
+                            <div class="valor">${total.toFixed(2)} </div>
                         </div>  
                         <div class="col-P">
                             <button type="button" onclick="excluirDoCarrinho('${item.nome}')" > Excluir</button>
