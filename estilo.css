@@ -1,9 +1,18 @@
 body {
 margin: 0;
-  background-color: #1b98e0;
+  /* background-color: #1b98e0; */
   font-family: 'Noto Sans JP', sans-serif;
  
 }
+
+.background{
+  background-image: url(./img/imgfundo.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+
 .proorp{
   padding: 2%;
   text-align: center;
