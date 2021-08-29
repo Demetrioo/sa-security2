@@ -1,0 +1,230 @@
+body {
+    margin: 0px;
+     font-family: 'Noto Sans JP', sans-serif;
+   
+   }
+    
+   nav{
+     position: sticky;
+     top: 0;
+     z-index: 3;
+   }
+   
+   footer{
+     background-color: #13293d;
+     border-top: 2px solid #e8f1f2;
+     padding: 2%;
+     color: #e8f1f2;
+     display: flex;
+   
+   }
+   .user{
+     text-align: center;
+     margin-top: 2%;
+    
+ 
+     
+   }
+   .trocarEmail{
+    
+     background-color: lightseagreen;
+     padding: 40px;
+     margin-top: 2%;
+    
+   
+   }
+   .divEmail{
+     background-color:lightseagreen;
+     display: none;
+   }
+
+   .input{
+     width: 50%;
+     margin-bottom: 2%;
+     outline: none;
+     border-radius: 8px;
+     border: 2px solid #13293d;
+     background-color: white;
+     color: black;
+     padding: 5px;
+   }
+   .labbalU{
+     margin-top: 2%;
+   }
+   .buttubE{
+     color: white;
+     font-size: 20px;
+     outline: none;
+     background-color: lightseagreen;
+     border: none;
+     cursor: pointer;
+     
+   }
+   .trocarSenha{
+     background-color: teal;
+     padding: 40px;
+   }
+   .divSenha{
+     background-color: teal;
+     display: none;
+   }
+   .buttubS{
+     color: white;
+     font-size: 20px;
+     outline: none;
+     background-color: teal;
+     border: none;
+     cursor: pointer;
+     
+   }
+   .trocarNumero{
+     background-color: lightseagreen;
+     padding: 40px;
+     
+   }
+   .divNumero{
+     background-color: lightseagreen;
+     display: none;
+   }
+   .buttubN{
+     color: white;
+     font-size: 20px;
+     outline: none;
+     background-color: lightseagreen;
+     border: none;
+     cursor: pointer;
+   }
+   .trocarMoradia{
+     background-color: teal;
+     padding: 40px;
+   }
+   .divMoradia{
+     background-color: teal;
+     display: none;
+   }
+   .buttubM{
+     color: white;
+     font-size: 20px;
+     outline: none;
+     background-color: teal;
+     border: none;
+     cursor: pointer;
+   }
+   .enviarUsuario{
+   
+     font-size: 18px;
+     cursor: pointer;
+     width: 20%;
+     outline: none;
+     border: 2px solid #13293d;
+     padding: 5px;
+     border-radius: 8px;
+     background-color: white;
+     margin-bottom:2% ;
+   }
+   .enviarUsuario-teal{
+    
+     font-size: 18px;
+     cursor: pointer;
+     width: 20%;
+     outline: none;
+     border: 2px solid #13293d;
+     padding: 5px;
+     border-radius: 8px;
+     background-color: white;
+     margin-bottom:2% ;
+   }
+  
+   .h1Email{
+     font-family: Arial;
+     font-size: 30px;
+     color: black;
+   }
+   hr{
+     padding: 2px;
+     visibility: hidden;
+   
+
+   }
+ 
+   footer li{
+     list-style-type: none;
+     display: flex;
+   }
+   .tiit{
+       text-align: center;
+       font-size: larger;
+       font-family: Arial;
+   }
+
+   
+   .header-pgs{
+     background-color: #13293d;
+     color: #e8f1f2;
+     padding: 20px;
+     margin-bottom: -5px;
+     text-align: center;
+     font-weight: bold;
+     font-size: x-large;
+   }
+    
+    
+   li {
+     float: left;
+   }
+   .cadlog:hover{
+     background-color: #1b98e0;
+     padding: 16.6px;
+     border-radius: 0.75em;
+   }
+   
+   .cadlog-cl{
+     margin-right: 6px;
+   
+   }
+   
+   .cadlog-cl:hover{
+     background-color: #1b98e0;
+     padding: 16.6px;
+     border-radius: 0.75em;
+   }
+   
+    
+   li a {
+     display: block;
+     color: white;
+     /* text-align: left; */
+     padding: 15px;
+     text-decoration: none;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+    
+    
+    
+   header{
+     background-color: #13293d;
+     color: #e8f1f2;
+     padding: 20px;
+     margin-bottom: -5px;
+     text-align: center;
+     font-weight: bold;
+     font-size: x-large;
+   }
+   
+   header img{
+     width: 35%;
+   }
+
+
+   @media screen and (max-width: 975px){
+    
+  
+   .escola2{
+     display: block;
+   }
+   .poemas{
+     width: auto;
+     margin-left: 1%;
+   }
+}

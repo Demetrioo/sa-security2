@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho  </title>
+    <link rel="stylesheet" href="./css/carrinho.css">
+</head>
+<header>
+    <img src="./img/logo3.png" alt="" href="./index.html">
+  </header>
+
+    <body background="./img/parede.jpg">
+     
+
+  
+        <nav>
+          <ul class="navegador-pgs">
+              <li><a class="cadlog" href="./index.html">Início</a></li>
+              <li><a class="cadlog" href="./outlet.html">Outlet</a></li>
+              <li><a class="cadlog" href="./corrida.html">Corrida</a></li>
+              <li><a class="cadlog" href="./moto.html">Moto</a></li>
+              <li><a class="cadlog" href="./kart.html">Kart</a></li>
+              <li style="float:right"><a class="activec" href="./carrinho.html"><img src="./img/carrinho.png" alt=""></a></li>
+              <li style="float:right"><a href="./login.html" class="cadlog">Login</a></li>
+              <li style="float:right"><a href="./cadastro.html" class="cadlog">Cadastro</a></li>
+              
+            </ul>
+       
+      </nav>
+      <h2>Meu Carrinho: </h2><br>
+        <div id="divCarrinho" class="container-car"> 
+
+        </div>
+        <footer>
+            <ul class="links">
+              <li>
+                <a class="cadlog" href="./sobrenos.html">Quem somos nós </a>
+                <a class="cadlog" href="./suporte.html">Como podemos ajudar? </a>
+                <a class="cadlog" href="./suporte.html">Nossas redes sociais! </a>
+              </li>
+          
+            </ul>
+          </footer>
+
+<script src="./JSC/carlinhos.js"></script>
+        <script>    
+          
+          Listar();
+            function Listar(){
+                let carrinho = getCarrinho();
+                for(let item of carrinho ){
+
+                    let divCarrinho = document.getElementById("divCarrinho");
+
+
+                    let x = ` <div class="container-car">
+                        <div class="col-P">
+                            <img src="${item.imagem}" style="width:100px"> 
+                        </div>
+                        <div class="col-P">
+                            <div class="produtos"> ${item.nome} </div>
+                        </div>
+                        <div class="col-Q">
+                            <div class="quantidade">${item.quantidade} </div>
+                        </div>
+                        <div class="col-P">
+                            <div class="valor">${item.valor} </div>
+                        </div>  
+                        <div class="col-P">
+                            <button type="button" onclick="excluirDoCarrinho('${item.nome}')" > Excluir</button>
+                        </div>  
+                    </div> `;
+
+                    
+                    divCarrinho.insertAdjacentHTML('afterend', x);
+
+                    console.log(item);
+                }
+                // console.log(carrinho);
+
+            }       
+           </script>
+           
+         
+</body>
+</html>

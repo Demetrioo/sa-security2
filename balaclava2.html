@@ -21,7 +21,7 @@
         <li><a class="cadlog" href="./corrida.html">Corrida</a></li>
         <li><a class="cadlog" href="./moto.html">Moto</a></li>
         <li><a class="cadlog" href="./kart.html">Kart</a></li>
-        <li style="float:right"><a class="activec" href="#carrinho"><img src="./img/carrinho.png" alt=""></a></li>
+        <li style="float:right"><a class="activec" href="./carrinho.html"><img src="./img/carrinho.png" alt=""></a></li>
         <li style="float:right"><a href="./login.html" class="cadlog">Login</a></li>
         <li style="float:right"><a href="./cadastro.html" class="cadlog">Cadastro</a></li>
         
@@ -51,7 +51,8 @@
         <option value="G">G(L)</option>
         <option value="GG">XL</option>
         <option value="GGG">GGG(XXG)</option>
-      </select>
+      </select> <br>
+      <input type="number" value="1" min="1" max="10" id="qtd2"><br>
       <label id="descricao"> Características: </label><br> 
       <label id="conteudo">
         - MVRS - Sistema de liberação de viseira magnética é liberado em caso de falhas ou batidas <br>
@@ -60,7 +61,7 @@
         - 9 entradas e 4 saídas de ar para um fluxo de ar ideal</label>       
   <br>
      
-  <button id="butao" type="button"> COMPRAR 🛒</button><br>
+  <button id="butao" type="button"  id="adicionar1" id="produto1" onclick="AddCarrinho('Balaclava Aberta Sparco Preta', document.getElementById('qtd2').value, '10.00', 2)"> COMPRAR 🛒</button><br>
   
   </div>
     </div>
@@ -84,6 +85,6 @@
 
   </ul>
 </footer>
-    
+<script src="./JSC/carlinhos.js"></script>
 </body>
 </html>

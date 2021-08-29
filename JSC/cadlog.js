@@ -89,7 +89,11 @@ function Logar(){
           // Mostra mensagem de login efetuado
           alert("Login efetuado!")
           // Pula para a página Principal
-          window.location.href="index.html"
+
+          if(nomeLogin.value == 'matheus@gmail.com')
+            window.location.href="admin.html";
+          else
+            window.location.href="index.html"
 
     }else{
 
