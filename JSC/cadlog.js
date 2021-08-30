@@ -1,6 +1,8 @@
 // Armazena os valores dos inputs da tela de Cadastro
 let nomeCadastro = document.getElementById("user")
 let senhaCadastro = document.getElementById("pass")
+let nameCadastro = document.getElementById("name")
+let confirmaCadastro = document.getElementById("confirm")
 
 // Armazena os valores dos inputs da tela de Login
 let nomeLogin = document.getElementById("userLog")
@@ -23,9 +25,17 @@ let senhas = []
 
 function Cadastrar(){
 
-    // Pega valores do LocalStorage (se tiver) e armazena
+  if(nomeCadastro.value == '' || nameCadastro.value == '' || senhaCadastro.value == '' || confirmaCadastro == ''){
+    alert("Preencha os campos corretamente!")
+  }else if(senhaCadastro.value != confirmaCadastro.value){
+    alert("Senhas diferentes!")
+  }else{
+    
+  // Pega valores do LocalStorage (se tiver) e armazena
     nomes = JSON.parse(localStorage.getItem("cadastro_usuario"));
     senhas = JSON.parse(localStorage.getItem("cadastro_senha"));
+    names = JSON.parse(localStorage.getItem("cadastro_nome"));
+    
 
   // Compara se o que veio do LocalStorage é vazio  
   if (nomes == null) {
@@ -33,14 +43,20 @@ function Cadastrar(){
     // Se estiver vazio, recria os vetores temporários
     nomes = []
     senhas = []
+    names = []
+    
 
     // Adiciona os valores dos inputs no início dos vetores
     nomes.push(nomeCadastro.value)
     senhas.push(senhaCadastro.value)
+    names.push(nameCadastro.value)
+    
 
     // Joga para o LocalStorage novamente
     localStorage.setItem("cadastro_usuario", JSON.stringify(nomes))
     localStorage.setItem("cadastro_senha", JSON.stringify(senhas))
+    localStorage.setItem("cadastro_nome", JSON.stringify(names))
+    
   
   } else {
 
@@ -48,10 +64,14 @@ function Cadastrar(){
     // Apenas adiciona os valores dos inputs após os valores que já tem nos vetores
     nomes.push(nomeCadastro.value)
     senhas.push(senhaCadastro.value)
+    nomes.push(nameCadastro.value)
+    
 
     // Joga para o LocalStorage novamente
     localStorage.setItem("cadastro_usuario", JSON.stringify(nomes))
     localStorage.setItem("cadastro_senha", JSON.stringify(senhas))
+    localStorage.setItem("cadastro_nome", JSON.stringify(names))
+    
 
   }
 
@@ -59,10 +79,16 @@ function Cadastrar(){
     alert("Seu cadastro foi efetuado com sucesso!");
     // Pula para a página de Login
     window.location.href="login.html"
-
+    
+  }
 }
-
 function Logar(){
+
+  
+
+  
+
+  
 
     // Pega valores do LocalStorage (se tiver) e armazena
     nomes = JSON.parse(localStorage.getItem("cadastro_usuario"))
@@ -98,16 +124,12 @@ function Logar(){
     }else{
 
           // Senão, mostra mensagem de login falhou
-          Swal.fire({
-            icon: 'error',
-            title: 'Oops...',
-            text: 'Something went wrong!',
-            footer: '<a href="">Why do I have this issue?</a>'
-          })
+          alert("Email ou senha inválidos!")
 
     }   
 
 }
+
 
 function Listar(){
 

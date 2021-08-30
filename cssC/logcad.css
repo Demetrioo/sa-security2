@@ -14,6 +14,10 @@ header{
   font-size: x-large;
 }
 
+header img{
+  cursor: pointer;
+}
+
 
 .container{
   margin: auto;
@@ -96,7 +100,7 @@ label{
 
 .cadlog{
   text-decoration: none;
-  color: #13293d;
+  color: #e8f1f2;
   font-weight: bold;
 }
 
@@ -106,18 +110,30 @@ label{
 }
 
 footer{
-  border-top: 2px solid #e8f1f2;
   background-color: #13293d;
-  color: white;
-  padding: 5%;
-  text-align: center;
-}
+  border-top: 2px solid #e8f1f2;
+  padding: 2%;
+  color: #e8f1f2;
+  display: flex;
+  margin: 0;
 
+}
+ 
 footer li{
   list-style-type: none;
   display: flex;
 }
 
+.pay{
+    width: 50%;
+  margin-left: 30px;
+
+}
+
+.pagamentos{
+  width: 100%;
+  margin-top: 20px;
+}
 li a {
   display: block;
   color: white;
@@ -125,6 +141,17 @@ li a {
   padding: 15px;
   text-decoration: none;
   font-weight: bold;
+}
+
+ul input{
+  float: center;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
 }
 .input-fieldd{
  width: 90%;
@@ -137,4 +164,8 @@ li a {
 }
 .input-fieldd:hover{
  background-color: #e8f1f2;
+}
+
+@media only screen and(max-width: 600px){
+
 }

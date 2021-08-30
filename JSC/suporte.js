@@ -11,7 +11,11 @@ function Suporte(){
     emails = JSON.parse(localStorage.getItem("email_suporte"));
     mensagens = JSON.parse(localStorage.getItem("mensagem_suporte"));
 
-    if (nomes == null) {
+      if(nomeSuporte.value == '' || emailSuporte.value == '' || mensagemSuporte.value == '' ){
+        alert("Preencha os campos corretamente!")
+      }else{
+
+      if (nomes == null) {
 
         // Se estiver vazio, recria os vetores temporários
         nomes = []
@@ -50,4 +54,4 @@ function Suporte(){
         window.location.href="index.html"
     
     }
-
+  }
