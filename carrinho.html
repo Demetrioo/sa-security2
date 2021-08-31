@@ -53,7 +53,7 @@
 
                     let divCarrinho = document.getElementById("divCarrinho");
                     let total = item.valor * item.quantidade;
-
+                    
                     let x = ` <div class="container-car">
                         <div class="col-P">
                             <img src="${item.imagem}" style="width:100px"> 
@@ -69,7 +69,8 @@
                         </div>  
                         <div class="col-P">
                             <button type="button" onclick="excluirDoCarrinho('${item.nome}')" > Excluir</button>
-                        </div>  
+                        </div> <br>
+                        
                     </div> `;
 
                     

@@ -6,7 +6,7 @@ function AddCarrinho(nomeProduto, qtd1, valor, urlImagemProduto) {
       "quantidade": qtd1,
       "valor": valor, 
       "imagem": urlImagemProduto,
-  
+     
     };
     
     carrinho.push(produto);
