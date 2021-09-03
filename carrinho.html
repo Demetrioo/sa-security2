@@ -10,7 +10,7 @@
     <img src="./img/logo3.png" alt="" href="./index.html">
   </header>
 
-    <body background="./img/parede.jpg">
+    <body>
      
 
   
@@ -28,10 +28,19 @@
             </ul>
        
       </nav>
-      <h2>Meu Carrinho: </h2><br>
+      <h2 class="title-car">Meu Carrinho: </h2><br>
+      <div class="titulos">
+        <label class="prod">Produto</label>
+        <label class="qtd">Quantidade</label>
+        <label class="preco">Preço</label>
+      </div>
+      <center>
+      <div class="container-full">
         <div id="divCarrinho" class="container-car"> 
 
         </div>
+      </div>
+    </center>
         <footer>
             <ul class="links">
               <li>
@@ -42,6 +51,8 @@
           
             </ul>
           </footer>
+        
+      
 
 <script src="./JSC/carlinhos.js"></script>
         <script>    
@@ -68,7 +79,7 @@
                             <div class="valor">${total.toFixed(2)} </div>
                         </div>  
                         <div class="col-P">
-                            <button type="button" onclick="excluirDoCarrinho('${item.nome}')" > Excluir</button>
+                            <button type="button" onclick="excluirDoCarrinho('${item.nome}')" > Remover</button>
                         </div> <br>
                         
                     </div> `;
