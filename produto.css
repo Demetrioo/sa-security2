@@ -191,10 +191,16 @@ body {
 
     .button-1:hover{
         background-color: #3483fa;
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
     }
 
     .button-2:hover{
         background-color: #e7e7e7;
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
     }
     
     hr{
@@ -254,6 +260,10 @@ body {
     font-family: arial;
     margin-left: 8px;
     text-decoration: none;
+  }
+
+  .sup-link:hover{
+      color: #1b98e0;
   }
 
     

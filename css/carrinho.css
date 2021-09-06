@@ -1,5 +1,5 @@
 body{
-  background-color: #e8f1f2;
+  background-color: #e7e7e7;
   margin: 0%;
  
 }
@@ -26,42 +26,50 @@ body{
     }
 
     .prod{   
-      margin-left: 5%;
-      font-size: 24px;
+      display: inline;
+      margin-left: 24.5%;
+      font-size: 20px;
     }
 
-    .qtd{   
-      margin-left: 40%;
-      font-size: 24px;
+    .qtd{ 
+      display: inline;
+      margin-left: 21.5%;
+      
+      font-size: 20px;
     }
 
-    .preco{ 
-      margin-left: 14.8%;
-      font-size: 24px;
+    .preco{
+      display: inline;
+      margin-left: 5.5%;
+      font-size: 20px;
     }
 
     /* JS VALOR-QTD-NOME */
 
       #img-prod{
-        border: 2px solid #13293d;
-        border-radius: 4em;
+        
+        
         margin-right: 60%;
         margin-bottom: 8px;
-        display: flex;
-        background-color: #1b98e0;
+        ;
         
         /* border: 4px solid #000; */
       }
 
       .produtos{
         display: flex;
-        padding-right: -100%;
+        font-family: Arial, Helvetica, sans-serif;
         width: 100%;
         /* border: 4px solid #000; */
         }
 
         .quantidade{
           margin-left: 100%;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .valor{
+          font-family: Arial, Helvetica, sans-serif;
         }
 
      
@@ -260,7 +268,8 @@ body{
    
 
    .container-car{
-     border-bottom: 1px solid #000;
+     background-color: #fff;
+     
      margin-bottom: 40px;
        color: #13293d;
        font-family: monospace;
@@ -271,9 +280,10 @@ body{
 }
 
 .container-full{
+  background-color: #fff;
   width: 90%;
 height: 50%;
-border: 1px solid #000;
+  
   border-bottom: none;
 }
     
@@ -300,18 +310,23 @@ border: 1px solid #000;
     }
 
     button{
-      color: #e8f1f2;
-      background-color: #ff3c3c;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 14px;
+      color: #fff;
+      background-color: #ff1b1b;
       width: 50%;
-      padding: 6px;
+      padding: 8%;
       border: 1px solid #13293d;
-      border-radius: 0.5em;
+      border-radius: 8px;
       cursor: pointer;
       
     }
 
     button:hover{
       background-color: rgb(255, 0, 0);
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
     }
 
 
