@@ -29,12 +29,11 @@
 
         <div class="divEmail">
           <label class="labbalU">E-mail Atual</label> <hr>
-          <input class="input" id="emailUsuario" id="userPesquisa"type="text"><hr>
+          <input class="input"  id="userPesquisa"type="text"><hr>
 
-          <label class="labbalU">E-mail Novo</label> <hr>
-          <input class="input" id="NovoEmail-Usuario" id="userPesquisa"type="text"><hr>
+         
 
-         <b><button class="enviarUsuario" onclick="Pesquisar()">Pesquisar</button></b>
+         <b><button class="enviarUsuario" onclick="Pesquisar()">Pesquisar</button></b><br><button class="enviarUsuario" onclick="Atualizar()">Atualizar</button>
         <!-- // <button onclick="Pesquisar()">Pesquisar</button><button onclick="Atualizar()">Atualizar</button><br><br> -->
         </div>
 
@@ -50,12 +49,12 @@
 
         <div class="divSenha">
           <label class="labbalU">Senha Atual</label> <hr>
-          <input class="input" id="senhaUsuario" type="text"><hr>
+          <input class="input" id="passPesquisa" type="text"><hr>
 
           <label class="labbalU">Nova Senha </label> <hr>
-          <input class="input" id="NovaSenha-Usuario" type="text"><hr>
+          <input class="input" id="passPesquisa" type="text"><hr>
 
-          <b><button class="enviarUsuario-teal">Atualizar</button></b>
+          <b><button class="enviarUsuario-teal" onclick="Atualizar()">Atualizar</button></b>
 
         </div>
 
@@ -117,6 +116,6 @@
         </div>
           
         </footer>
-     <script src="./"></script>
+     <script>CarregadorUser()</script>
 </body>
 </html>

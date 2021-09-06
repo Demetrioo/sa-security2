@@ -57,6 +57,28 @@ if(divMoradia.style.display ==='block'){
 
 
 });
+let nomeCadastro = document.getElementById("user")
+let senhaCadastro = document.getElementById("pass")
+let nameCadastro = document.getElementById("name")
+let confirmaCadastro = document.getElementById("confirm")
+
+// Armazena os valores dos inputs da tela de Login
+let nomeLogin = document.getElementById("userLog")
+let senhaLogin = document.getElementById("senhaLog")
+
+// Armazena o nome do input de pesquisa
+let nomePesquisar = document.getElementById("userPesquisa")
+let senhaPesquisar = document.getElementById("passPesquisa")
+
+// Armazena o nome do usuário digitado no input de exclusão 
+let nomeExcluir = document.getElementById("excluir")
+
+// Cria uma variável para armazenar a posição dos dados a serem pesquisados 
+let posicaoPesquisar
+
+// Cria vetores vazios para armazenamento temporário dos dados
+let nomes = []
+let senhas = []
 function Listar(){
 
     // Pega valores do LocalStorage (se tiver) e armazena
@@ -134,7 +156,7 @@ function Pesquisar(){
 
         encontrou = 1
         posicaoPesquisar = i
-      
+        alert('Autorizado para alterar sua informações')
       }
     
     }
@@ -184,3 +206,15 @@ icon.addEventListener('click', function(){
         input.type = 'password';
     }
 });
+function CarregarUser(){
+    let users = JSON.parse(localStorage.getItem("cadastro_usuario"))
+    let usersSenha = JSON.parse(localStorage.getItem("cadastro_senha"))
+    let userLogado = localStorage.getItem('userLogado')
+    
+    users.forEach((u, i) => {
+      if(u == userLogado){
+        document.getElementById('userPesquisa').value = users[i ]
+        document.getElementById('passPesquisa').value = usersSenha[i]
+      }
+    });
+  }
