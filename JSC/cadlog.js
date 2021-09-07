@@ -83,7 +83,7 @@ function Cadastrar(){
   }
 }
 function Logar(){
-  alert(Logar)
+ 
     // Pega valores do LocalStorage (se tiver) e armazena
     nomes = JSON.parse(localStorage.getItem("cadastro_usuario"))
     senhas = JSON.parse(localStorage.getItem("cadastro_senha"))

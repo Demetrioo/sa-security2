@@ -35,24 +35,92 @@
        
       </nav>
       <div class="container">
-        <h3 class="ctn-title">Pagamento</h3>
+          
+        <h2 class="direita">Dados Pessoais</h2><h2 class="lado">Dados de pagamento</h2>
         <hr>
+        <div class="container-pag">
+            <div class="input-container">
+                <label>Número do cartão</label>
+                <input type="text" class="input-field" id="name" placeholder="ex:123">
+            </div>
+            <div class="input-container">
+                <label>Nome do titular</label>
+                <input type="text" class="input-field" id="name" placeholder="ex: Adailton Santos">
+            </div>
+            <div class="input-container">
+                <select class="mes">
+                    <option value="">MM</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">00</option>
+                    <option value="010">10</option>
+                    <option value="011">11</option>
+                    <option value="012">12</option>
+                </select>
+                <select class="mes">
+                    <option value="">AA</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                   
+                </select>
+            </div>
+            <div class="input-container">
+                <label>CVV</label>
+                <input type="text" class="input-field" id="name" placeholder="ex: xxx" maxlength="3">
+            </div>
+            <button onclick="Confirmar()">Confirmar Compra</button>
+         </div>  
         <div class="input-container">
-            <label>Nome:</label>
-            <input type="text" class="input-field" id="name" placeholder=" ex: João Araújo dos Santos">
+            <label>Nome</label>
+            <input type="text" class="input-field" id="name" placeholder=" ex: João ">
         </div>
         <div class="input-container">
-            <label>Email:</label>
-            <input type="text" class="input-field" id="name" placeholder=" ex: João Araújo dos Santos">
+            <label>Sobrenome</label>
+            <input type="text" class="input-field" id="name" placeholder=" ex: Souza">
         </div>
         <div class="input-container">
-            <label>CPF: </label>
-            <input type="text" class="input-field" id="name" placeholder=" ex: João Araújo dos Santos">
+            <label>E-mail </label>
+            <input type="text" class="input-field" id="name" placeholder=" ex: exemplo@gmail.com">
         </div>
         <div class="input-container">
-            <label></label>
-            <input type="text" class="input-field" id="name" placeholder=" ex: João Araújo dos Santos">
+            <label>Cpf</label>
+            <input type="text" class="input-field" id="name" placeholder=" ex: 123.456.789-00" maxlength="11">
         </div>
+        <div class="input-container">
+            <label>CEP</label>
+            <input type="text" class="input-field" id="name" placeholder=" ex: 88047-123" maxlength="9">
+        </div>
+        <div class="input-container">
+            <label>Endereço:</label>
+            <input type="text" class="input-field" id="name" placeholder="ex: Rua quatro, 000">
+        </div>
+        <div class="input-container">
+            <label>Bairro:</label>
+            <input type="text" class="input-field" id="name" placeholder="ex: Saco dos Limões">
+        </div>
+        <div class="input-container">
+            <label>Cidade:</label>
+            <input type="text" class="input-field" id="name" placeholder="ex: Florianópolis">
+        </div>
+        <div class="input-container">
+            <label>Estado</label>
+            <input type="text" class="input-field" id="name" placeholder="ex: Santa Catarina">
+        </div>
+   
+ 
+</div>
             
 </body>
 </html>

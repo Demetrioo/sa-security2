@@ -200,10 +200,17 @@
         background-color: #e8f1f2;
       }
       
-       h2{
+          
+      .direita{
         text-align: center;
-        color: #13293d;
-      }   
+        display: inline;
+        margin-left: 10%;
+      }
+      .lado{
+        text-align: center;
+        display: inline;
+        margin-left: 35%;
+        }
       
       hr{
         border: 1px solid #13293d;
@@ -224,4 +231,7 @@
       .input-field:hover{
         background-color: #e8f1f2;
       }
-      
+      .container-pag{
+        float: right;
+    
+      }
