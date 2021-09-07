@@ -1,7 +1,7 @@
 function AddCarrinho(nomeProduto, qtd1, valor, urlImagemProduto, tamanho) {
     let carrinho = getCarrinho();
 
-    alert(tamanho)
+    
 
     let produto = {
       "nome": nomeProduto, 
