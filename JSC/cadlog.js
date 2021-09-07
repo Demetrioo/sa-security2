@@ -19,7 +19,7 @@ let nomeExcluir = document.getElementById("excluir")
 let posicaoPesquisar
 
 // Cria vetores vazios para armazenamento temporário dos dados
-let nomes = []
+let names = []
 let senhas = []
 
 
