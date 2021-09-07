@@ -64,7 +64,7 @@ function Cadastrar(){
     // Apenas adiciona os valores dos inputs após os valores que já tem nos vetores
     nomes.push(nomeCadastro.value)
     senhas.push(senhaCadastro.value)
-    nomes.push(nameCadastro.value)
+    names.push(nameCadastro.value)
     
 
     // Joga para o LocalStorage novamente
@@ -83,13 +83,7 @@ function Cadastrar(){
   }
 }
 function Logar(){
-
-  
-
-  
-
-  
-
+  alert(Logar)
     // Pega valores do LocalStorage (se tiver) e armazena
     nomes = JSON.parse(localStorage.getItem("cadastro_usuario"))
     senhas = JSON.parse(localStorage.getItem("cadastro_senha"))
@@ -105,7 +99,7 @@ function Logar(){
 
 	          // Flag "logou" ativa	
 	          logou = 1
-	
+            localStorage.setItem('userLogado' , nomes[i])
 	      }
 
     }

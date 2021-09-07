@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+      background-color: #e7e7e7;
+      
+     
+    }
+    
+    .title{
+      height: 170px;
+      padding: 50px;
+    }
+     
+    nav{
+      position: sticky;
+      top: 0;
+      z-index: 3;
+    }
+    
+    .icon{
+      width: 60%;
+    }
+    
+     
+     
+    footer{
+      background-color: #13293d;
+      border-top: 2px solid #e8f1f2;
+      padding: 2%;
+      color: #e8f1f2;
+      display: flex;
+      margin: 0;
+    
+    }
+    footer li{
+      list-style-type: none;
+      display: flex;
+    }
+    
+    .pay{
+        width: 50%;
+      margin-left: 30px;
+    
+    }
+    
+    .pagamentos{
+      width: 100%;
+      margin-top: 20px;
+    }
+    li a {
+      display: block;
+      color: white;
+      /* text-align: left; */
+      padding: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    
+.navegador{
+     
+      border-bottom: 2px solid #e8f1f2;
+      background-color:#13293d;
+      list-style-type: none;
+      margin: 0;
+      padding: 16px;
+      overflow: hidden;
+     
+    }
+    
+    .container{
+        background-color: #fff;
+      /* text-align: center; */
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-top: 5%;
+      margin-bottom: 1%;
+      width: 90%;
+      
+      display: flex;
+      justify-content: center;
+      
+        
+    }
+
+    .cards {
+        width: 50%;
+        margin-left: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        text-align: center;
+        
+      }
+
+      .cards img{
+          width: 50%;
+      }
+
+    .product{
+        align-content: center;
+        width: 100%;
+        padding-bottom: 10%;
+        
+    }
+
+    .h3-prod{
+        color: #13293d;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        margin-left: 2%;
+        text-align: left;
+        
+        
+    }
+
+    .h3-valor{
+        color: #13293d;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        margin-left: 2%;
+        text-align: left;
+        background-color: #e7e7e7;
+        border-radius: 0.1em;
+        
+        padding: 8px;
+        width: 94%;
+    }
+
+    #tamanho{
+        font-family: 'arial';
+        font-size: 20px;
+        background-color: #e7e7e7;
+        margin-left: 42%;
+        padding: 4px;
+        border: none;
+        border-radius: 0.4em;
+        cursor: pointer;
+    }
+
+    .qtd{
+      
+      padding: 6px;
+      margin-bottom: 1px;
+      border-radius: 0.4em;
+        font-family: arial;
+        font-size: 20px;
+        margin-left: 36%;
+    }
+
+    input{
+    text-align: center;
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: 0.4em;
+    font-family: arial;
+    font-size: 30px;
+    padding: 0px;
+    padding-left: 2%;
+    width: 8%;
+    margin-left: 2%;
+    margin-top: 0%;        
+    }
+
+    .button-1{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        border: none;
+        border-radius: 0.75em;
+        font-size: 20px;
+        background-color: #1b98e0;
+        color: #e8f1f2;
+        padding: 20px;
+        margin-left: 20%;
+        margin-top: 6%;
+        margin-right: 5%;
+        cursor: pointer;
+    }
+
+    .button-2{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        border: none;
+        border-radius: 0.75em;
+        font-size: 20px;
+        background-color: #e8f1f2;
+        color: #3483fa;
+        padding: 20px;
+        margin-left: 0%;
+        margin-top: 6%;
+        cursor: pointer;
+    }
+
+    .button-1:hover{
+        background-color: #3483fa;
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    .button-2:hover{
+        background-color: #e7e7e7;
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    
+    hr{
+        height: 380px;
+        
+        border: 1px solid #13293d;
+    }
+
+    .description{
+      width: 90%;
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-top: -100px;
+      margin-bottom: 1%;
+      border-top: 1px solid #e7e7e7;
+      background-color: #fff;
+      padding-bottom: 3%;
+    }
+
+    .title-desc{
+      font-family: arial;
+      margin-left: 8px;
+      color: #13293d;
+    }
+
+    .elements{
+      font-family: arial;
+      font-size: 20px;
+      margin-left: 8px;
+      
+    }
+
+    .element-master{
+        font-weight: bold;
+        font-family: arial;
+        font-size: 20px;
+        margin-left: 6%;
+        
+      
+    }
+
+    .element-master-1{
+      font-weight: bold;
+      font-family: arial;
+      font-size: 20px;
+      margin-left: 20%;
+      
+    
+  }
+
+  .sup{
+    font-family: arial;
+    margin-left: 2%;
+  }
+
+  .sup-link{
+    font-family: arial;
+    margin-left: 8px;
+    text-decoration: none;
+  }
+
+  .sup-link:hover{
+      color: #1b98e0;
+  }
+
+    
+
+
+    
+    
+    li {
+      float: left;
+    }
+    .cadlog:hover{
+      color: #1b98e0;
+      padding: 16.6px;
+      border-radius: 0.75em;
+    }
+    
+    .cadlog-cl{
+      margin-right: 6px;
+    
+    }
+    
+    .cadlog-cl:hover{
+      color:  #1b98e0;
+      padding: 16.6px;
+      border-radius: 0.75em;
+    }
+     
+     
+    
+    li a {
+      display: block;
+      color: white;
+      /* text-align: left; */
+      padding: 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+     
+     
+     
+    header{
+      background-color: #13293d;
+      color: #e8f1f2;
+      padding: 20px;
+      margin-bottom: -5px;
+      text-align: center;
+      font-weight: bold;
+      font-size: x-large;
+      
+    }
+    
+    header img{
+      width: 35%;
+    }
+     
+      
+      
+      .active, .dot:hover {
+        background-color: #13293d;
+       
+      }
+      .activec{
+        background: #13293d;
+        border-radius: 0.75em;
+      }
+    
+      
+    
+      .activec img{
+        position: absolute;
+        width: 30px;
+        margin-left: -12px;
+        margin-top: -6px;
+        
+      }
+
+
+    
