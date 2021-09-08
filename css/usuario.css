@@ -1,7 +1,6 @@
 body {
-    margin: 0px;
-     font-family: 'Noto Sans JP', sans-serif;
-   
+    margin: 0;
+   background-color: #cacaca;
    }
     
    nav{
@@ -16,147 +15,14 @@ body {
      padding: 2%;
      color: #e8f1f2;
      display: flex;
-     
+   }
    
-   }
-   .user{
-     text-align: center;
-     margin-top: 2%;
-    
- 
-     
-   }
-   .trocarEmail{
-    
-     background-color: lightseagreen;
-     padding: 40px;
-     margin-top: 2%;
-    
-   
-   }
-   .divEmail{
-     background-color:lightseagreen;
-     display: none;
-   }
-
-   .input{
-     width: 25%;
-     margin-bottom: 2%;
-     outline: none;
-     border-radius: 8px;
-     border: 2px solid #13293d;
-     background-color: white;
-     color: black;
-     padding: 5px;
-   }
-   .labbalU{
-     margin-top: 2%;
-   }
-   .buttubE{
-     color: white;
-     font-size: 20px;
-     outline: none;
-     background-color: lightseagreen;
-     border: none;
-     cursor: pointer;
-     
-   }
-   .trocarSenha{
-     background-color: teal;
-     padding: 40px;
-   }
-   .divSenha{
-     background-color: teal;
-     display: none;
-   }
-   .buttubS{
-     color: white;
-     font-size: 20px;
-     outline: none;
-     background-color: teal;
-     border: none;
-     cursor: pointer;
-     
-   }
-   .trocarNumero{
-     background-color: lightseagreen;
-     padding: 40px;
-     
-   }
-   .divNumero{
-     background-color: lightseagreen;
-     display: none;
-   }
-   .buttubN{
-     color: white;
-     font-size: 20px;
-     outline: none;
-     background-color: lightseagreen;
-     border: none;
-     cursor: pointer;
-   }
-   .trocarMoradia{
-     background-color: teal;
-     padding: 40px;
-   }
-   .divMoradia{
-     background-color: teal;
-     display: none;
-   }
-   .buttubM{
-     color: white;
-     font-size: 20px;
-     outline: none;
-     background-color: teal;
-     border: none;
-     cursor: pointer;
-   }
-   .enviarUsuario{
-   
-     font-size: 18px;
-     cursor: pointer;
-     width: 20%;
-     outline: none;
-     border: 2px solid #13293d;
-     padding: 5px;
-     border-radius: 8px;
-     background-color: white;
-     margin-bottom:2% ;
-   }
-   .enviarUsuario-teal{
-    
-     font-size: 18px;
-     cursor: pointer;
-     width: 20%;
-     outline: none;
-     border: 2px solid #13293d;
-     padding: 5px;
-     border-radius: 8px;
-     background-color: white;
-     margin-bottom:2% ;
-   }
-  
-   .h1Email{
-     font-family: Arial;
-     font-size: 30px;
-     color: black;
-   }
-   hr{
-     padding: 2px;
-     visibility: hidden;
-   
-
-   }
  
    footer li{
      list-style-type: none;
      display: flex;
    }
-   .tiit{
-       text-align: center;
-       font-size: larger;
-       font-family: Arial;
-   }
+   
 
    
    .header-pgs{
@@ -219,13 +85,131 @@ body {
 
 
    @media screen and (max-width: 975px){
+   }
+
+   .container{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    padding: 50px;
+    background-color: #fff;
+   }
+
+   .ctn-title{
+    color: #13293d;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
     
-  
-   .escola2{
-     display: block;
    }
-   .poemas{
-     width: auto;
-     margin-left: 1%;
-   }
+
+   
+.input-field{
+  width: 90%;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding: 10px;
+  border: 1px solid #e8f1f2;
+  border-bottom: 1px solid #13293d;
+  border-radius: 0,75em;
 }
+
+.input-field:hover{
+  background-color: #e8f1f2;
+}
+
+   .input-fieldd{
+    width: 90%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 10px;
+    border: 1px solid #e8f1f2;
+    border-bottom: 1px solid #13293d;
+    border-radius: 0,75em;
+   }
+   .input-fieldd:hover{
+    background-color: #e8f1f2;
+   }
+
+   
+.container img{
+  position:absolute;
+  width: 30px;
+  height: 20px;
+  margin-top: 16px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.msn{
+  display: block;
+  font-family: arial;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.label{
+  font-family: arial;
+  font-size: 16px;
+
+}
+
+.label-email{
+  font-family: arial;
+  font-size: 16px;
+  
+}
+
+.input-containerr{
+  margin-top: 8%;
+}
+
+.mid{
+  width: 92.6%;
+  margin-right: 10%;
+  margin-top: 10%;
+  border: 1px solid #cacaca;
+}
+
+.top{
+  border: 1px solid #cacaca;
+}
+
+.atualizar{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  border-radius: 0.4em;
+  border: none;
+  background-color: #cacaca;  
+  width: 30%;
+  padding: 16px;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+.atualizar:hover{
+  background-color: #e7e7e7;
+}
+
+.pesquisar{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  border-radius: 0.4em;
+  border: none;
+  background-color: #3483fa;
+  color: #fff;  
+  width: 30%;
+  padding: 16px;
+  margin-top: 10%;
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+.pesquisar:hover{
+  background-color: #1b98e0;
+}
+
+  

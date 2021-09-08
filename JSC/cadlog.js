@@ -19,7 +19,7 @@ let nomeExcluir = document.getElementById("excluir")
 let posicaoPesquisar
 
 // Cria vetores vazios para armazenamento temporário dos dados
-let names = []
+let nomes = []
 let senhas = []
 
 
@@ -64,7 +64,7 @@ function Cadastrar(){
     // Apenas adiciona os valores dos inputs após os valores que já tem nos vetores
     nomes.push(nomeCadastro.value)
     senhas.push(senhaCadastro.value)
-    names.push(nameCadastro.value)
+    nomes.push(nameCadastro.value)
     
 
     // Joga para o LocalStorage novamente
@@ -83,7 +83,13 @@ function Cadastrar(){
   }
 }
 function Logar(){
- 
+
+  
+
+  
+
+  
+
     // Pega valores do LocalStorage (se tiver) e armazena
     nomes = JSON.parse(localStorage.getItem("cadastro_usuario"))
     senhas = JSON.parse(localStorage.getItem("cadastro_senha"))
@@ -99,7 +105,7 @@ function Logar(){
 
 	          // Flag "logou" ativa	
 	          logou = 1
-            localStorage.setItem('userLogado' , nomes[i])
+	
 	      }
 
     }
@@ -123,5 +129,20 @@ function Logar(){
     }   
 
 }
+
+let container = document.querySelector('.input-containerr');
+let input = document.querySelector('.input-fieldd');
+let icon = document.querySelector('.img');
+ 
+icon.addEventListener('click', function(){
+    container.classList.toggle('visible');
+    if(container.classList.contains('visible')){
+        icon.src = 'img/eye-off.svg';
+        input.type = 'text';
+    }else{
+        icon.src = 'img/eye.svg';
+        input.type = 'password';
+    }
+});
 
 

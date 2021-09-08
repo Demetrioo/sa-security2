@@ -156,7 +156,7 @@ function Pesquisar(){
 
         encontrou = 1
         posicaoPesquisar = i
-        alert('Autorizado para alterar sua informações')
+        alert('Autorizado para alterar suas informações')
       }
     
     }
@@ -192,29 +192,4 @@ function Atualizar(){
     alert("Dados atualizados!")
 
 }
-let container = document.querySelector('.input-containerr');
-let input = document.querySelector('.input-fieldd');
-let icon = document.querySelector('.img');
- 
-icon.addEventListener('click', function(){
-    container.classList.toggle('visible');
-    if(container.classList.contains('visible')){
-        icon.src = 'img/eye-off.svg';
-        input.type = 'text';
-    }else{
-        icon.src = 'img/eye.svg';
-        input.type = 'password';
-    }
-});
-function CarregarUser(){
-    let users = JSON.parse(localStorage.getItem("cadastro_usuario"))
-    let usersSenha = JSON.parse(localStorage.getItem("cadastro_senha"))
-    let userLogado = localStorage.getItem('userLogado')
-    
-    users.forEach((u, i) => {
-      if(u == userLogado){
-        document.getElementById('userPesquisa').value = users[i ]
-        document.getElementById('passPesquisa').value = usersSenha[i]
-      }
-    });
-  }
+

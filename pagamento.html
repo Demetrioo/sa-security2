@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-=======
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/pagamento.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SA</title>
+  <link rel="stylesheet" href="./css/pagamento.css">
 </head>
-
+<body>
     <header>
         <img src="./img/logo3.png" alt="">
+    
       </header>
-      <body background="./img/parede.jpg">
            
       
         
@@ -40,15 +35,15 @@
         <hr>
         <div class="container-pag">
             <div class="input-container">
-                <label>Número do cartão</label>
-                <input type="text" class="input-field" id="name" placeholder="ex:123">
+                
+                <input type="text" class="input-pag" id="nameCard" placeholder="Titular do cartão">
             </div>
             <div class="input-container">
-                <label>Nome do titular</label>
-                <input type="text" class="input-field" id="name" placeholder="ex: Adailton Santos">
+                
+                <input type="number" class="input-pag" id="numberCard" placeholder="Número do cartão">
             </div>
             <div class="input-container">
-                <select class="mes">
+                <select class="mes" id="mes">
                     <option value="">MM</option>
                     <option value="01">01</option>
                     <option value="02">02</option>
@@ -59,11 +54,11 @@
                     <option value="07">07</option>
                     <option value="08">08</option>
                     <option value="09">00</option>
-                    <option value="010">10</option>
-                    <option value="011">11</option>
-                    <option value="012">12</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
                 </select>
-                <select class="mes">
+                <select class="ano" id="ano">
                     <option value="">AA</option>
                     <option value="21">21</option>
                     <option value="22">22</option>
@@ -75,52 +70,73 @@
                     <option value="28">28</option>
                    
                 </select>
+                
             </div>
             <div class="input-container">
-                <label>CVV</label>
-                <input type="text" class="input-field" id="name" placeholder="ex: xxx" maxlength="3">
+                
+                <input type="number" class="input-pag" id="cvv" placeholder="CVV">
+
+                
             </div>
-            <button onclick="Confirmar()">Confirmar Compra</button>
+            <img src="./img/cartao-removebg-preview.png" id="card" alt="">
+            <button onclick="Confirmar()">Confirmar compra</button>
          </div>  
         <div class="input-container">
-            <label>Nome</label>
-            <input type="text" class="input-field" id="name" placeholder=" ex: João ">
+            
+            <input type="text" class="input-field" id="namePag" placeholder=" Nome ">
         </div>
         <div class="input-container">
-            <label>Sobrenome</label>
-            <input type="text" class="input-field" id="name" placeholder=" ex: Souza">
+            
+            <input type="text" class="input-field" id="lastName" placeholder="Sobrenome">
         </div>
         <div class="input-container">
-            <label>E-mail </label>
-            <input type="text" class="input-field" id="name" placeholder=" ex: exemplo@gmail.com">
+            
+            <input type="text" class="input-field" id="emailPag" placeholder="Email">
         </div>
         <div class="input-container">
-            <label>Cpf</label>
-            <input type="text" class="input-field" id="name" placeholder=" ex: 123.456.789-00" maxlength="11">
+            
+            <input type="text" class="input-field" id="cpf" placeholder="CPF" maxlength="11">
         </div>
         <div class="input-container">
-            <label>CEP</label>
-            <input type="text" class="input-field" id="name" placeholder=" ex: 88047-123" maxlength="9">
+            
+            <input type="text" class="input-field" id="cep" placeholder="CEP" maxlength="9">
         </div>
         <div class="input-container">
-            <label>Endereço:</label>
-            <input type="text" class="input-field" id="name" placeholder="ex: Rua quatro, 000">
+            
+            <input type="text" class="input-field" id="address" placeholder="Endereço">
         </div>
         <div class="input-container">
-            <label>Bairro:</label>
-            <input type="text" class="input-field" id="name" placeholder="ex: Saco dos Limões">
+            
+            <input type="text" class="input-field" id="bairro" placeholder="Bairro">
         </div>
         <div class="input-container">
-            <label>Cidade:</label>
-            <input type="text" class="input-field" id="name" placeholder="ex: Florianópolis">
+            
+            <input type="text" class="input-field" id="city" placeholder="Cidade">
         </div>
         <div class="input-container">
-            <label>Estado</label>
-            <input type="text" class="input-field" id="name" placeholder="ex: Santa Catarina">
+            
+            <input type="text" class="input-field" id="state" placeholder="Estado">
         </div>
    
  
 </div>
-            
+
+<footer>
+    <ul class="links">
+      <li>
+        <a class="cadlog" href="./sobrenos.html">Quem somos nós </a>
+        <a class="cadlog" href="./suporte.html">Como podemos ajudar? </a>
+        <a class="cadlog" href="./suporte.html">Nossas redes sociais! </a>
+        
+        
+      </li>
+
+    </ul>
+    <div class="pay">
+          <img src="./img/pagamentos.png" class="pagamentos">
+        </div>
+</footer>
+ 
 </body>
+ <script src="./JSC/carlinhos.js"></script>
 </html>

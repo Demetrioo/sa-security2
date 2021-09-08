@@ -1,9 +1,8 @@
 body {
     margin: 0;
-      background-color: #e7e7e7;
+      background-color: #cacaca;
       
-     
-    }
+ }
     
     .title{
       height: 170px;
@@ -118,7 +117,7 @@ body {
         font-size: 30px;
         margin-left: 2%;
         text-align: left;
-        background-color: #e7e7e7;
+        background-color: #cacaca;
         border-radius: 0.1em;
         
         padding: 8px;
@@ -128,7 +127,7 @@ body {
     #tamanho{
         font-family: 'arial';
         font-size: 20px;
-        background-color: #e7e7e7;
+        background-color: #cacaca;
         margin-left: 42%;
         padding: 4px;
         border: none;
@@ -148,7 +147,7 @@ body {
 
     input{
     text-align: center;
-    background-color: #e7e7e7;
+    background-color: #cacaca;
     border: none;
     border-radius: 0.4em;
     font-family: arial;
@@ -181,7 +180,7 @@ body {
         border: none;
         border-radius: 0.75em;
         font-size: 20px;
-        background-color: #e8f1f2;
+        background-color: #cacaca;
         color: #3483fa;
         padding: 20px;
         margin-left: 0%;
@@ -197,7 +196,7 @@ body {
     }
 
     .button-2:hover{
-        background-color: #e7e7e7;
+        background-color: #cacaca;
         -webkit-transform: scale(0.8);
         -ms-transform: scale(0.8);
         transform: scale(0.8);
@@ -215,7 +214,7 @@ body {
       margin-left: 5%;
       margin-top: -100px;
       margin-bottom: 1%;
-      border-top: 1px solid #e7e7e7;
+      border-top: 2px solid #cacaca;
       background-color: #fff;
       padding-bottom: 3%;
     }
@@ -341,5 +340,88 @@ body {
         
       }
 
+      /* IMAGENS PRODUTOS */
 
-    
+     #conjunto1{
+       width: 90%;
+     }
+
+     #conjunto2{
+       width: 90%;
+     }
+
+     #jaqueta{
+       width: 90%;
+     }
+
+     #calcaout1{
+       width: 90%;
+     }
+
+     #calcaout2{
+       width: 60%;
+     }
+
+     #macacaoout{
+       width: 100%;
+     }
+
+     #botaout1{
+      width: 90%;
+     }
+
+     #botaout2{
+       width: 90%;
+     }
+
+     #botaout3{
+      width: 100%;
+     }
+
+     #capaceteracing1{
+       width: 90%;
+     }
+
+     #capaceteracing2{
+       width: 100%;
+     }
+
+     #capaceteracing3{
+       width: 100%;
+     }
+
+     #macacaoracing1{
+       width: 95%;
+     }
+
+     #macacaoracing2{
+       width: 95%;
+     }
+
+     #macacaoracing3{
+      width: 70%;
+     }
+
+     #luvaracing1{
+       width: 90%;
+     }
+
+     #luvaracing2{
+       width: 70%;
+     }
+
+     #luvaracing3{
+       width: 90%;
+     }
+
+     #sapatilharacing1{
+       width: 90%;
+     }
+
+     #sapatilharacing2{
+      width: 90%;
+    }
+
+    #sapatilharacing3{
+      width: 80%;
+    }
