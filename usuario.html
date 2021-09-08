@@ -4,73 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro - Security Motorsport</title>
+    <title>Configurações do usuário</title>
     <link rel="stylesheet" href="./css/usuario.css">
-    <script defer src="./JSC/usuario.js"></script>
+    
   
 </head>
 <header>
     <img src="./img/logo3.png" alt="">
 </header>
 <body>
-    <div class="user">
-      <h1 class='h1Email'>Configurações de Usuário</h1>
+    <div class="container">
 
-      <!-- Div  troca de Email -->
-
-        <div class="trocarEmail">
-          <button class="buttubE" id="divdiv" >Alterar E-mail</button>
+      <h3 class="ctn-title">Alteração de dados cadastrais</h3>
+        <hr class="top">
+      <label class="msn">Insira nos campos abaixo o novo email E/OU a nova senha.</label>
+      <div class="input-container">
+        <label class="label-email">Email:</label>
+        <input type="email" class="input-field" id="userPesquisa" placeholder="Digite aqui seu novo endereço de email">
+    </div>
+    <hr class="mid">
+        <div class="input-containerr">
+        <label class="label">Senha:</label>
+        <input type="password" class="input-fieldd" id="passPesquisa" placeholder="Digite aqui sua nova senha">
+        <img class="img"src="./img/eye.svg">
+    </div>
+    
         
-        </div>
-
-
-        <!-- div escondida Troca de E-mail -->
-
-
-        <div class="divEmail">
-          <label class="labbalU">E-mail Atual</label> <hr>
-          <input class="input"  id="userPesquisa"type="text"><hr>
-
-         
-
-         <b><button class="enviarUsuario" onclick="Pesquisar()">Pesquisar</button></b><br>
-        <!-- // <button onclick="Pesquisar()">Pesquisar</button><button onclick="Atualizar()">Atualizar</button><br><br> -->
-        </div>
-
-<!-- div troca de senha -->
-
-
-        <div class="trocarSenha">
-          <button class="buttubS" id="divdivS">Alterar Senha</button> 
-        </div>
-
-        <!-- div escondida troca de Senha -->
-
-
-        <div class="divSenha">
-          <label class="labbalU">Senha Atual</label> <hr>
-          <input class="input" id="passPesquisa" type="text"><hr>
-
-          
-
-          <b><button class="enviarUsuario-teal" onclick="Atualizar()">Atualizar</button></b>
-
-        </div>
-
-<!-- Div troca de Numero -->
-
-
-        
-       
-        <!-- div escondida troca de Numero -->
-
-
-        <!-- traca de Moradia -->
-
-
-        
-
-
+    <center>
+      <button type="button" class="pesquisar" onclick="Pesquisar()">Pesquisar</button>
+    
+    
+        <button type="button" class="atualizar" onclick="Atualizar()">Atualizar</button>
+    
+  </center>
     </div>
        
     
@@ -88,6 +54,7 @@
         </div>
           
         </footer>
+        <script src="./JSC/usuario.js"></script>
      <script>CarregadorUser()</script>
 </body>
 </html>

@@ -1,4 +1,62 @@
+var btn = document.querySelector('#divdiv')
+var divEmail = document.querySelector('.divEmail');
 
+btn .addEventListener('click', function(){
+
+if(divEmail.style.display ==='block'){
+    divEmail.style.display = 'none';
+}else{
+    divEmail.style.display = 'block';
+}
+
+
+
+});
+
+var btn = document.querySelector('#divdivS')
+var divSenha = document.querySelector('.divSenha');
+
+btn .addEventListener('click', function(){
+
+if(divSenha.style.display ==='block'){
+    divSenha.style.display = 'none';
+}else{
+    divSenha.style.display = 'block';
+}
+
+
+
+});
+
+var btn = document.querySelector('#divdivN')
+var divNumero = document.querySelector('.divNumero');
+
+btn .addEventListener('click', function(){
+
+if(divNumero.style.display ==='block'){
+    divNumero.style.display = 'none';
+}else{
+    divNumero.style.display = 'block';
+}
+
+
+
+});
+
+var btn = document.querySelector('#divdivM')
+var divMoradia = document.querySelector('.divMoradia');
+
+btn .addEventListener('click', function(){
+
+if(divMoradia.style.display ==='block'){
+    divMoradia.style.display = 'none';
+}else{
+    divMoradia.style.display = 'block';
+}
+
+
+
+});
 let nomeCadastro = document.getElementById("user")
 let senhaCadastro = document.getElementById("pass")
 let nameCadastro = document.getElementById("name")
@@ -84,7 +142,6 @@ function Excluir(){
 function Pesquisar(){
 
     // Pega valores do LocalStorage (se tiver) e armazena
-    
     nomes = JSON.parse(localStorage.getItem("cadastro_usuario"));
     senhas = JSON.parse(localStorage.getItem("cadastro_senha"));
 
@@ -99,7 +156,7 @@ function Pesquisar(){
 
         encontrou = 1
         posicaoPesquisar = i
-        alert('Autorizado para alterar suas informações')
+        alert('Autorizado para alterar sua informações')
       }
     
     }
@@ -135,4 +192,29 @@ function Atualizar(){
     alert("Dados atualizados!")
 
 }
-
+let container = document.querySelector('.input-containerr');
+let input = document.querySelector('.input-fieldd');
+let icon = document.querySelector('.img');
+ 
+icon.addEventListener('click', function(){
+    container.classList.toggle('visible');
+    if(container.classList.contains('visible')){
+        icon.src = 'img/eye-off.svg';
+        input.type = 'text';
+    }else{
+        icon.src = 'img/eye.svg';
+        input.type = 'password';
+    }
+});
+function CarregarUser(){
+    let users = JSON.parse(localStorage.getItem("cadastro_usuario"))
+    let usersSenha = JSON.parse(localStorage.getItem("cadastro_senha"))
+    let userLogado = localStorage.getItem('userLogado')
+    
+    users.forEach((u, i) => {
+      if(u == userLogado){
+        document.getElementById('userPesquisa').value = users[i ]
+        document.getElementById('passPesquisa').value = usersSenha[i]
+      }
+    });
+  }
