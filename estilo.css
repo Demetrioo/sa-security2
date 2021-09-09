@@ -41,6 +41,7 @@ font-family: 'Noto Sans JP', sans-serif;
   }
   
   .icon{
+    display: none;
     width: 60%;
   }
   
@@ -69,7 +70,7 @@ font-family: 'Noto Sans JP', sans-serif;
   
   .pagamentos{
     width: 100%;
-    margin-top: 20px;
+
   }
   li a {
     display: block;
@@ -83,21 +84,12 @@ font-family: 'Noto Sans JP', sans-serif;
   li a:hover:not(.active) {
     color: #1b98e0;
   }
-  
-  footer li{
-    list-style-type: none;
-    display: flex;
-  }
+ 
   
   .pay{
       width: 50%;
     margin-left: 30px;
   
-  }
-  
-  .pagamentos{
-    width: 100%;
-    margin-top: 20px;
   }
   
   
@@ -434,7 +426,7 @@ font-family: 'Noto Sans JP', sans-serif;
   .redes-master{
     width: 40px;
     margin-top: -15%;
-    margin-left: 20px;
+    
     
   }
     
@@ -458,7 +450,7 @@ font-family: 'Noto Sans JP', sans-serif;
   .pag{
     margin-left: 4%;
     width: 30%;
-    margin-top: -1%;
+    
   }
    
   

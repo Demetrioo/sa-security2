@@ -32,6 +32,7 @@
       <div class="titulos">
         <h3 class="prod">Produto:</h3>
         <h3 class="qtd">Quantidade:</h3>
+        <h3 class="tamanho">Tamanho:</h3>
         <h3 class="preco">Preço:</h3>
 
       </div>
@@ -42,16 +43,27 @@
         </div>
       </div>
     </center>
-        <footer>
-            <ul class="links">
-              <li>
-                <a class="cadlog" href="./sobrenos.html">Quem somos nós </a>
-                <a class="cadlog" href="./suporte.html">Como podemos ajudar? </a>
-                <a class="cadlog" href="./suporte.html">Nossas redes sociais! </a>
-              </li>
-          
-            </ul>
-          </footer>
+
+    <div class="col-btn">
+      <button class="btn-class">Continuar a compra</button>
+    </div>
+    <footer>
+      <ul class="links">
+        <li>
+          <a class="cadlog" href="./sobrenos.html">Quem somos nós </a>
+          <a class="cadlog" href="./suporte.html">Como podemos ajudar? </a>
+          <hr class="hr-footer">
+        <a class="cadlog" href="./suporte.html"><img src="./img/twitter.svg" alt="" class="redes-master"> </a>
+        <a class="cadlog" href="./suporte.html"><img src="./img/facebook (1).svg" alt="" class="redes"> </a>
+        <a class="cadlog" href="./suporte.html"><img src="./img/instagram.svg" alt="" class="redes"> </a>
+        <a class="cadlog" href="./suporte.html"><img src="./img/mail.svg" alt="" class="redes"> </a>
+        <a class="cadlog" href="./suporte.html"><img src="./img/linkedin.svg" alt="" class="redes"> </a>
+        <hr class="hr-footer">
+        <img src="./img/pagamentos.png" class="pag">
+        </li>
+    
+      </ul>
+    </footer>
         
       
 
@@ -83,7 +95,7 @@
                             <div class="valor">R$ ${total.toFixed(2)} </div>
                         </div>  
                         <div class="col-P">
-                            <button type="button" onclick="excluirDoCarrinho('${item.nome}')" > Remover</button>
+                            <button class="btn-remove" type="button" onclick="excluirDoCarrinho('${item.nome}')" > Remover</button>
                         </div> <br>
                         
                     </div> `;
