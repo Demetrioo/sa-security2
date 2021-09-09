@@ -1,4 +1,3 @@
-  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +8,10 @@
     <link rel="stylesheet" href="./css/admin.css">
 </head>
 <header>
-    <a href="index.html"><img src="./img/logo3.png" class="media-object  img-responsive img-thumbnail"></a>
+  
+  <a href="index.html"><img src="./img/logo3.png" class="media-object  img-responsive img-thumbnail"></a>
 </header>
-<body>
+<body background="./img/parede.jpg">
      
 
   
@@ -30,27 +30,25 @@
  
 </nav>
     <div class="container">
-        <h2 class="ctn-title">Cadastrar Produto:</h2>
-        <hr>
+        <h2>Cadastrar Produto:</h2>
         <form id="produto-cad">
         <div class="input-container">
             <label>Nome do Produto:</label><br>
             <input type="text" class="input-field" id="name" placeholder="" maxlength="">
         </div>
         <div class="input-container">
-            <label>Preço:</label><br>
+            <label>Preço</label><br>
             <input type="text" class="input-field" id="preco" placeholder="" maxlength="">
         </div>
         
         <div class="input-container">
-            <label>Descrição:</label><br>
+            <label>Descrição</label><br>
             <textarea name="" id="descricao" cols="58" rows="10" maxlength="300" style="resize: none;" ></textarea>
         </div>
         <input type="file"id="imagem" name="imagem"accept="image/png, image/jpeg"><br>
-        <button class="btn-cad" onclick="Cadastrar()">Cadastrar</button>
+        <button onclick="Cadastrar()">Cadastrar</button>
     </form>
-    <h2>Editar Produto:</h2>
-    <hr>
+    <h2>Editar Produto: </h2>
     <div class="input-container">
         <label>Nome do Produto</label><br>
         <input type="text" class="input-field" id="namePesquisa" >
@@ -61,20 +59,19 @@
     </div>
     <label>Descrição Produto:</label><br>
     <div class="input-container">
-        <textarea name="" class=""id="descricaoPesquisa" cols="58" rows="10" style="resize: none;"></textarea>
+        <textarea name="" class=""id="descricaoPesquisa" cols="58" rows="10"></textarea>
     </div>
     <img src="" alt="" id="imagemPesquisa">
     <input type="file"id="imagem" name="imagem"accept="image/png, image/jpeg"><br>
-    <button onclick="Pesquisar()" class="btn-cad">Pesquisar Produto</button>
-    <button onclick="Atualizar()" class="btn-cad">Atualizar Produto</button>
+    <button onclick="Pesquisar()">Pesquisar Produto</button>
+    <button onclick="Atualizar()">Atualizar Produto</button>
     <h2>Excluir Produto:</h2>
-    <hr>
     <div class="input-container">
         <label>Nome do Produto:</label>
         <input type="text" class="input-field" id="excluir">
     </div>
    
-    <button onclick="Excluir()" class="btn-cad">Excluir Produto</button>
+    <button onclick="Excluir()">Excluir Produto</button>
     </div>
     <script src="./JSC/admin.js"></script>
 </body>

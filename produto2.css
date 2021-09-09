@@ -1,9 +1,8 @@
 body {
     margin: 0;
-      background-color: #e7e7e7;
+      background-color: #cacaca;
       
-     
-    }
+ }
     
     .title{
       height: 170px;
@@ -17,43 +16,21 @@ body {
     }
     
     .icon{
+      display: none;
       width: 60%;
     }
     
      
      
-    footer{
-      background-color: #13293d;
-      border-top: 2px solid #e8f1f2;
-      padding: 2%;
-      color: #e8f1f2;
-      display: flex;
-      margin: 0;
-    
-    }
-    footer li{
-      list-style-type: none;
-      display: flex;
+    .activec img:hover{
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
     }
     
-    .pay{
-        width: 50%;
-      margin-left: 30px;
     
-    }
+  
     
-    .pagamentos{
-      width: 100%;
-      margin-top: 20px;
-    }
-    li a {
-      display: block;
-      color: white;
-      /* text-align: left; */
-      padding: 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
     
     
 .navegador{
@@ -118,7 +95,7 @@ body {
         font-size: 30px;
         margin-left: 2%;
         text-align: left;
-        background-color: #e7e7e7;
+        background-color: #cacaca;
         border-radius: 0.1em;
         
         padding: 8px;
@@ -128,7 +105,7 @@ body {
     #tamanho{
         font-family: 'arial';
         font-size: 20px;
-        background-color: #e7e7e7;
+        background-color: #cacaca;
         margin-left: 42%;
         padding: 4px;
         border: none;
@@ -148,7 +125,7 @@ body {
 
     input{
     text-align: center;
-    background-color: #e7e7e7;
+    background-color: #cacaca;
     border: none;
     border-radius: 0.4em;
     font-family: arial;
@@ -181,7 +158,7 @@ body {
         border: none;
         border-radius: 0.75em;
         font-size: 20px;
-        background-color: #e8f1f2;
+        background-color: #cacaca;
         color: #3483fa;
         padding: 20px;
         margin-left: 0%;
@@ -197,7 +174,7 @@ body {
     }
 
     .button-2:hover{
-        background-color: #e7e7e7;
+        background-color: #cacaca;
         -webkit-transform: scale(0.8);
         -ms-transform: scale(0.8);
         transform: scale(0.8);
@@ -209,13 +186,24 @@ body {
         border: 1px solid #13293d;
     }
 
+    .hr-footer{
+      height: 45px;
+      border: 1px solid #e8f1f2;
+    }
+
+    .pag{
+      margin-left: 4%;
+      width: 30%;
+      
+    }
+
     .description{
       width: 90%;
       margin-right: 5%;
       margin-left: 5%;
       margin-top: -100px;
       margin-bottom: 1%;
-      border-top: 1px solid #e7e7e7;
+      border-top: 2px solid #cacaca;
       background-color: #fff;
       padding-bottom: 3%;
     }
@@ -271,38 +259,8 @@ body {
 
     
     
-    li {
-      float: left;
-    }
-    .cadlog:hover{
-      color: #1b98e0;
-      padding: 16.6px;
-      border-radius: 0.75em;
-    }
-    
-    .cadlog-cl{
-      margin-right: 6px;
-    
-    }
-    
-    .cadlog-cl:hover{
-      color:  #1b98e0;
-      padding: 16.6px;
-      border-radius: 0.75em;
-    }
      
-     
-    
-    li a {
-      display: block;
-      color: white;
-      /* text-align: left; */
-      padding: 15px;
-      text-decoration: none;
-      font-weight: bold;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-     
+  
      
      
     header{
@@ -331,9 +289,7 @@ body {
         border-radius: 0.75em;
       }
     
-      .col-btn{
-        display: flex;
-      }
+      
     
       .activec img{
         position: absolute;
@@ -342,66 +298,268 @@ body {
         margin-top: -6px;
         
       }
-      @media screen and (max-width: 768px){
-        .element-master-1{
-          margin-left: 20px;
-        }
-        .title-desc{
-          padding-top: 15vh;
-        }
-        .description{
-          border-top: none;
-        }
-        .col-btn{
-          margin-top: 20px;
-        }
-        .button-1{
-          padding-bottom: 0;
-          padding-top: 0;
-          margin-left: 10px;
-        }
-        .button-2{
-          margin-top: 5px;
-          margin-left: 0vh;
-        }
-      }
-      @media screen and (max-width: 425px){
-          .qtd{
-            margin-left: 20px;
-          }
-          .col-btn{
-            display: block;
-          }
-          .cards img{
-            margin-bottom: 15vh;
-            width: 100%;
-          }
-          .cards{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .button-2{
-            width: 90%;
-            padding-bottom: 15px;
-            padding-top: 15px;
-            margin-left: 10px;
-          }
-          #tamanho{
-            margin-left: 20px;
-          }
-      }
-      @media screen and (max-width: 320px){
-        .qtd{
-          margin-left: 0;
-        }
-        .cards img{
-          margin-bottom: 18vh;
-          width: 100%;
-        }
-        .cards{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-        }
-      }    
+
+      /* IMAGENS PRODUTOS */
+
+     #conjunto1{
+       width: 90%;
+     }
+
+     #conjunto2{
+       width: 90%;
+     }
+
+     #jaqueta{
+       width: 90%;
+     }
+
+     #calcaout1{
+       width: 90%;
+     }
+
+     #calcaout2{
+       width: 60%;
+     }
+
+     #macacaoout{
+       width: 100%;
+     }
+
+     #botaout1{
+      width: 90%;
+     }
+
+     #botaout2{
+       width: 90%;
+     }
+
+     #botaout3{
+      width: 100%;
+     }
+
+     #capaceteracing1{
+       width: 90%;
+     }
+
+     #capaceteracing2{
+       width: 100%;
+     }
+
+     #capaceteracing3{
+       width: 100%;
+     }
+
+     #macacaoracing1{
+       width: 95%;
+     }
+
+     #macacaoracing2{
+       width: 95%;
+     }
+
+     #macacaoracing3{
+      width: 70%;
+     }
+
+     #luvaracing1{
+       width: 90%;
+     }
+
+     #luvaracing2{
+       width: 70%;
+     }
+
+     #luvaracing3{
+       width: 90%;
+     }
+
+     #sapatilharacing1{
+       width: 90%;
+     }
+
+     #sapatilharacing2{
+      width: 90%;
+    }
+
+    #sapatilharacing3{
+      width: 80%;
+    }
+
+    #capacetemoto1{
+      width: 90%;
+    }
+
+    #capacetemoto2{
+      width: 90%;
+    }
+
+    #capacetemoto3{
+      width: 80%;
+    }
+
+    #macacaomoto1{
+      width: 55%;
+      margin-top: -5%;
+    }
+
+    #macacaomoto2{
+      width: 65%;
+    }
+
+    #luvamoto1{
+      width: 75%;
+    }
+    
+    #luvamoto2{
+      width: 85%;
+    }
+
+    #luvamoto3{
+      width: 100%;
+    }
+
+    #botamoto1{
+      width: 80%;
+    }
+
+    #botamoto2{
+      width: 90%;
+    }
+
+    #botamoto3{
+      width: 80%
+    }
+
+    #capacetekart1{
+      width: 85%;
+    }
+
+    #capacetekart2{
+      width: 90%;
+    }
+
+    #capacetekart3{
+      width: 85%;
+    }
+
+    #macacaokart1{
+      width: 70%;
+    }
+    
+    #macacaokart2{
+      width: 95%;
+    }
+
+    #macacaokart3{
+      width: 100%;
+    }
+
+    #luvakart1{
+      width: 90%;
+    }
+    #luvakart2{
+      width: 90%
+    }
+    #luvakart3{
+      width: 90%
+    }
+
+    #sapatilhakart1{
+      width: 90%
+    }
+    #sapatilhakart2{
+      width: 90%
+    }
+    #sapatilhakart3{
+      width: 100%
+    }
+
+    /* FOOTER */
+
+    footer{
+      background-color: #13293d;
+      border-top: 2px solid #e8f1f2;
+      padding: 2%;
+      color: #e8f1f2;
+      display: flex;
+      margin-top: 10%;
+    
+    }
+     
+    footer li{
+      list-style-type: none;
+      display: flex;
+    }
+
+    ul input{
+      float: center;
+      padding: 6px 10px;
+      margin-top: 8px;
+      margin-right: 16px;
+      background: #ddd;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .redes-master{
+      width: 40px;
+      margin-top: -15%;
+      
+      
+    }
+      
+    .redes{
+      margin-top: -20%;
+      width: 40px;
+    }
+  
+    .redes-master:hover{
+      -webkit-transform: scale(0.8);
+          -ms-transform: scale(0.8);
+          transform: scale(0.8);
+    }
+  
+    .redes:hover{
+      -webkit-transform: scale(0.8);
+          -ms-transform: scale(0.8);
+          transform: scale(0.8);
+    }
+
+    li a {
+      display: block;
+      color: white;
+      padding: 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif
+    }
+    
+    li a:hover:not(.active) {
+      color: #1b98e0;
+    }
+
+    li {
+      float: left;
+    }
+    .cadlog:hover{
+      color: #1b98e0;
+  
+    }
+    
+    .cadlog-cl{
+      margin-right: 6px;
+    
+    }
+    
+    .cadlog-cl:hover{
+      color:  #1b98e0;
+      padding: 16.6px;
+      border-radius: 0.75em;
+    }
+     
+   
+   
+    
+  
+   

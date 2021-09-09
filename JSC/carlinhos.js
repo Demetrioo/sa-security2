@@ -50,6 +50,7 @@ function Comprar(){
   
 }
 
+
 let nomePag = document.getElementById('namePag').value;
 let sobrenome = document.getElementById('lastName').value;
 let emailPag = document.getElementById('emailPag').value;
@@ -79,3 +80,4 @@ function Confirmar(){
           window.location.href='./index.html'
         }
 }
+

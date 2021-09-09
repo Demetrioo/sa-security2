@@ -117,6 +117,7 @@ function Logar(){
           // Pula para a página Principal
 
           if(nomeLogin.value == 'matheus@gmail.com')
+          
             window.location.href="admin.html";
           else
             window.location.href="index.html"

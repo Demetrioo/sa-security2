@@ -136,3 +136,20 @@ function Atualizar(){
 
 }
 
+
+let container = document.querySelector('.input-containerr');
+let input = document.querySelector('.input-fieldd');
+let icon = document.querySelector('.img');
+ 
+icon.addEventListener('click', function(){
+    container.classList.toggle('visible');
+    if(container.classList.contains('visible')){
+        icon.src = 'img/eye-off.svg';
+        input.type = 'text';
+    }else{
+        icon.src = 'img/eye.svg';
+        input.type = 'password';
+    }
+});
+
+
