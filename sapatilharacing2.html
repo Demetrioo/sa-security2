@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sapatilha OMP Racing First</title>
-    <link rel="stylesheet" href="./css/produto.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sapatilha OMP Racing First-S</title>
+  <link rel="stylesheet" href="./produto.css">
 </head>
-<header>
-  <img src="./img/logo3.png" alt="">
-</header>
-<body background="./img/parede.jpg">
-     
-
+<body>
   
-  <nav>
-    <ul class="navegador-pgs">
-        <li><a class="cadlog" href="./index.html">Início</a></li>
-        <li><a class="cadlog" href="./outlet.html">Outlet</a></li>
-        <li><a class="cadlog" href="./corrida.html">Corrida</a></li>
-        <li><a class="cadlog" href="./moto.html">Moto</a></li>
-        <li><a class="cadlog" href="./kart.html">Kart</a></li>
-        <li style="float:right"><a class="activec" href="./carrinho.html"><img src="./img/carrinho.png" alt=""></a></li>
-        <li style="float:right"><a href="./login.html" class="cadlog">Login</a></li>
-        <li style="float:right"><a href="./cadastro.html" class="cadlog">Cadastro</a></li>
-        
-      </ul>
  
-</nav>
-
-  <div class="escola">
-     
-    <div class="cards">
+  
+        <header>
+          <img src="./img/logo3.png" alt="">
       
-        <a href="" id="card">
-          <img id="sapatilharacing2" src="./imgracing/sapatilharacing2.png"  alt="" />
-        </a>      
+        </header>
+      <!-- navbar -->
+      
+      <nav>
+          <ul class="navegador">
+              <li><a class="cadlog" href="./index.html">Início</a></li>
+              <li><a class="cadlog" href="./outlet.html">Outlet</a></li>
+              <li><a class="cadlog" href="./corrida.html">Corrida</a></li>
+              <li><a class="cadlog" href="./moto.html">Moto</a></li>
+              <li><a class="cadlog" href="./kart.html">Kart</a></li>
+              <li style="float:right"><a class="activec" href="./carrinho.html"><img src="./img/carrinho.png" alt=""></a></li>
+              <li style="float:right"><a href="./login.html" class="cadlog-cl">Login</a></li>
+              <li style="float:right"><a href="./cadastro.html" class="cadlog-cl">Cadastro</a></li>
+              <li style="float:right"><a class="activec" href="./usuario.html" ><img src="./img/UserMenor.png" class="icon"></a></li>
+            
+          </ul>
+ 
+      </nav>
+
+      <div class="container">
+
+        <div class="cards">
+            <img id="sapatilharacing2"  src="./imgracing/sapatilharacing2.png" alt="">
+        </div>
+        <hr>
         
-      
-    </div>
-    
-    <div class="descrito">
+        
+        <div class="product">
+            <h3 class="h3-prod"> Sapatilha OMP Racing First-S</h3>
+            <h3 class="h3-valor">R$ 1.599,90</h3>
 
-      <label><b>Sapatilha OMP Racing First</b> <br> R$ 1.599,90<label> <br>
-        <select name="" id="tamanho">
-          <option value="">Selecione um tamanho</option>
-          <option value="36">36</option>
+            <select name="" id="tamanho">
+              <option value="tamanho">TAMANHO</option>
+              <option value="36">36</option>
           <option value="37">37</option>
           <option value="38">38</option>
           <option value="39">39</option>
@@ -54,39 +56,61 @@
           <option value="42">42</option>
           <option value="43">43</option>
           <option value="44">44</option>
-        </select><br>
-        <input type="number" value="1" min="1" max="10" id="qtd1"><br>
-      <label id="descricao"> Características: </label><br> 
-      <label id="conteudo">
-        - MVRS - Sistema de liberação de viseira magnética é liberado em caso de falhas ou batidas <br>
-        - Policarbonato moldado por injeção leve e construção em concha ABS <br>
-        - Forro e almofadas removíveis e laváveis <br>
-        - 9 entradas e 4 saídas de ar para um fluxo de ar ideal</label>       
-  <br>
-     
-  <button id="butao" type="button"id="adicionar1" id="produto1" onclick="AddCarrinho('Sapatilha OMP Racing First', document.getElementById('qtd1').value, '1599.90',  document.getElementById('sapatilharacing2').src,document.getElementById('tamanho').value)"> COMPRAR 🛒</button><br>
+                
+              </select><br><br>
+              <label class="qtd">QUANTIDADE:</label>
+              <input type="number" value="1" min="1" max="20" id="qtd1" placeholder="Quantidade"><br>
+            
+              <button id="butao" type="button" class="button-1" onclick="AddCarrinho('Sapatilha OMP Racing First', document.getElementById('qtd1').value,  '1599.90',  document.getElementById('sapatilharacing2').src, document.getElementById('tamanho').value)" > Adicionar ao carrinho</button>
+              <button  id="btn-comprar" class="button-2" type="button" onclick="Comprar()">Comprar agora</button>
+          </div>
+
+         
+      </div>
+      
+      <div class="description">
+        <h3 class="title-desc">Características:</h3>
+
+        <label class="elements"> – Parte externa em camurça;</label><br><br>
+        <label class="elements"> – Parte interna em NOMEX;</label><br><br>
+        <label class="elements"> –  Cano alto;</label><br><br>
+        <label class="elements"> – Velcro na parte superior;</label><br><br>
+        <label class="elements"> – Sola de borracha com design projetado para facilitar a rotação dos pés;</label>
+        <br><br><br>
+        <h3 class="title-desc">Especificações:</h3>
+
+        <label class="element-master">Nome:</label><label class="elements">First-S</label>
+        <label class="element-master-1">Gênero:</label><label class="elements">Masculino</label>
+        <label class="element-master-1">Categoria:</label><label class="elements">Sapatilhas</label>
+        <br><br><br><br>
+
+        <label class="element-master">Material:</label><label class="elements">Camurça</label>
+        <label class="element-master-1">Marca:</label><label class="elements">OMP</label>
+        <label class="element-master-1">Origem:</label><label class="elements">Internacional</label>
+<br><br><br><br><br><br>
+
+        <label class="sup">Ficou com alguma dúvida sobre o produto?</label><a class="sup-link" href="./suporte.html">Clique aqui.</a>
+      </div>
+      
+      
   
-  </div>
-    </div>
+    <footer>
+      <ul class="links">
+        <li>
+          <a class="cadlog" href="./sobrenos.html">Quem somos nós </a>
+          <a class="cadlog" href="./suporte.html">Como podemos ajudar? </a>
+          <a class="cadlog" href="./suporte.html">Nossas redes sociais! </a>
+          
+          
+        </li>
 
- 
-</div> 
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<footer>
-  <ul class="links">
-    <li>
-      <a class="cadlog" href="./sobrenos.html">Quem somos nós </a>
-      <a class="cadlog" href="./suporte.html">Como podemos ajudar? </a>
-      <a class="cadlog" href="./suporte.html">Nossas redes sociais! </a>
-    </li>
-
-  </ul>
-</footer>
-<script src="./JSC/carlinhos.js"></script>
+      </ul>
+      <div class="pay">
+            <img src="./img/pagamentos.png" class="pagamentos">
+          </div>
+  </footer>
+    
+ </div>
 </body>
+ <script src="./JSC/carlinhos.js"></script>
 </html>

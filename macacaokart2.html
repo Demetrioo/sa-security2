@@ -1,93 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Macacão Fem. Savancini Absolut</title>
-    <link rel="stylesheet" href="./css/produto.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Macacão Fem. Savancini Absolut</title>
+  <link rel="stylesheet" href="./produto.css">
 </head>
-<header>
-  <img src="./img/logo3.png" alt="">
-</header>
-<body background="./img/parede.jpg">
-     
-
+<body>
   
-  <nav>
-    <ul class="navegador-pgs">
-        <li><a class="cadlog" href="./index.html">Início</a></li>
-        <li><a class="cadlog" href="./outlet.html">Outlet</a></li>
-        <li><a class="cadlog" href="./corrida.html">Corrida</a></li>
-        <li><a class="cadlog" href="./moto.html">Moto</a></li>
-        <li><a class="cadlog" href="./kart.html">Kart</a></li>
-        <li style="float:right"><a class="activec" href="./carrinho.html"><img src="./img/carrinho.png" alt=""></a></li>
-        <li style="float:right"><a href="./login.html" class="cadlog">Login</a></li>
-        <li style="float:right"><a href="./cadastro.html" class="cadlog">Cadastro</a></li>
-        
-      </ul>
  
-</nav>
-
-  <div class="escola">
-     
-    <div class="cards">
-      
-        <a href="" id="card">
-          <img id="macacaokart2" src="./imgkart/macacãokart2.png"  alt="" />
-        </a>      
-        
-      
-    </div>
-    
-    <div class="descrito">
-
-      <label><b>Macacão Fem. Savancini Absolut</b> <br> R$349,00<label> <br>
-        <select name="" id="tamanho">
-          <option value="">Selecione um Tamanho</option>
-          <option value="42">42</option>
-          <option value="44">44</option>
-          <option value="46">46</option>
-          <option value="48">48</option>
-          <option value="50">50</option>
-          <option value="52">52</option>
-          <option value="54">54</option>
-          <option value="56">56</option>
-          <option value="58">58</option>
-          <option value="60">60</option>
-        </select><br>
-        <input type="number" value="1" min="1" max="10" id="qtd1"><br>
-      <label id="descricao"> Características: </label><br> 
-      <label id="conteudo">
-        - MVRS - Sistema de liberação de viseira magnética é liberado em caso de falhas ou batidas <br>
-        - Policarbonato moldado por injeção leve e construção em concha ABS <br>
-        - Forro e almofadas removíveis e laváveis <br>
-        - 9 entradas e 4 saídas de ar para um fluxo de ar ideal</label>       
-  <br>
-     
-  <button id="butao" type="button"id="adicionar1" id="produto1" onclick="AddCarrinho('Macacão Fem. Savancini Absolut', document.getElementById('qtd1').value, '349.00',  document.getElementById('macacaokart2').src,document.getElementById('tamanho').value)"> COMPRAR 🛒</button><br>
   
-  </div>
-    </div>
-
+        <header>
+          <img src="./img/logo3.png" alt="">
+      
+        </header>
+      <!-- navbar -->
+      
+      <nav>
+          <ul class="navegador">
+              <li><a class="cadlog" href="./index.html">Início</a></li>
+              <li><a class="cadlog" href="./outlet.html">Outlet</a></li>
+              <li><a class="cadlog" href="./corrida.html">Corrida</a></li>
+              <li><a class="cadlog" href="./moto.html">Moto</a></li>
+              <li><a class="cadlog" href="./kart.html">Kart</a></li>
+              <li style="float:right"><a class="activec" href="./carrinho.html"><img src="./img/carrinho.png" alt=""></a></li>
+              <li style="float:right"><a href="./login.html" class="cadlog-cl">Login</a></li>
+              <li style="float:right"><a href="./cadastro.html" class="cadlog-cl">Cadastro</a></li>
+              <li style="float:right"><a class="activec" href="./usuario.html" ><img src="./img/UserMenor.png" class="icon"></a></li>
+            
+          </ul>
  
-</div> 
-<br>
-<br>
-<br>
-<br>
-<br>
+      </nav>
 
-<footer>
-  <ul class="links">
-    <li>
-      <a class="cadlog" href="./sobrenos.html">Quem somos nós </a>
-      <a class="cadlog" href="./suporte.html">Como podemos ajudar? </a>
-      <a class="cadlog" href="./suporte.html">Nossas redes sociais! </a>
-    </li>
+      <div class="container">
 
-  </ul>
-</footer>
-<script src="./JSC/carlinhos.js"></script>
+        <div class="cards">
+            <img id="macacaokart2" src="./imgkart/macacãokart2.png" alt="">
+        </div>
+        <hr>
+        
+        
+        <div class="product">
+            <h3 class="h3-prod">Macacão Fem. Savancini Absolut</h3>
+            <h3 class="h3-valor">R$ 349,00</h3>
+
+            <select name="" id="tamanho">
+              <option value="tamanho">TAMANHO</option>
+              <option value="42">42</option>
+              <option value="44">44</option>
+              <option value="46">46</option>
+              <option value="48">48</option>
+              <option value="50">50</option>
+              <option value="52">52</option>
+              <option value="54">54</option>
+              <option value="56">56</option>
+              <option value="58">58</option>
+              <option value="60">60</option>
+              </select><br><br>
+              <label class="qtd">QUANTIDADE:</label>
+              <input type="number" value="1" min="1" max="20" id="qtd1" placeholder="Quantidade"><br>
+            
+              <button id="butao" type="button" class="button-1" onclick="AddCarrinho('Macacão Fem. Savancini Absolut', document.getElementById('qtd1').value, '899.90',  document.getElementById('macacaokart2').src, document.getElementById('tamanho').value)" > Adicionar ao carrinho</button>
+              <button  id="btn-comprar" class="button-2" type="button" onclick="Comprar()">Comprar agora</button>
+          </div>
+
+         
+      </div>
+      
+      <div class="description">
+        <h3 class="title-desc">Características:</h3>
+
+        <label class="elements"> – Proteção UV50+;</label><br><br>
+        <label class="elements"> – Proteção antibacteriana;</label><br><br>
+        <label class="elements"> – Refletivos na frente e atrás;</label><br><br>
+        <label class="elements"> – Easy care – não é necessário passar;</label><br><br>
+        <label class="elements"> – Conforto térmico.</label>
+        <br><br><br>
+        <h3 class="title-desc">Especificações:</h3>
+
+        <label class="element-master">Nome:</label><label class="elements"> Absolut</label>
+        <label class="element-master-1">Gênero:</label><label class="elements">Feminino</label>
+        <label class="element-master-1">Categoria:</label><label class="elements">Macacão</label>
+        <br><br><br><br>
+
+        <label class="element-master">Material:</label><label class="elements">Poliamida/Lycra</label>
+        <label class="element-master-1">Marca:</label><label class="elements">Savancini</label>
+        <label class="element-master-1">Origem:</label><label class="elements">Nacional</label>
+<br><br><br><br><br><br>
+
+        <label class="sup">Ficou com alguma dúvida sobre o produto?</label><a class="sup-link" href="./suporte.html">Clique aqui.</a>
+      </div>
+      
+      
+  
+      <footer>
+        <ul class="links">
+          <li>
+            <a class="cadlog" href="./sobrenos.html">Quem somos nós </a>
+            <a class="cadlog" href="./suporte.html">Como podemos ajudar? </a>
+            <hr class="hr-footer">
+          <a class="cadlog" href="./suporte.html"><img src="./img/twitter.svg" alt="" class="redes-master"> </a>
+          <a class="cadlog" href="./suporte.html"><img src="./img/facebook (1).svg" alt="" class="redes"> </a>
+          <a class="cadlog" href="./suporte.html"><img src="./img/instagram.svg" alt="" class="redes"> </a>
+          <a class="cadlog" href="./suporte.html"><img src="./img/mail.svg" alt="" class="redes"> </a>
+          <a class="cadlog" href="./suporte.html"><img src="./img/linkedin.svg" alt="" class="redes"> </a>
+          <hr class="hr-footer">
+          <img src="./img/pagamentos.png" class="pag">
+          </li>
+      
+        </ul>
+      </footer>
+ </div>
 </body>
+ <script src="./JSC/carlinhos.js"></script>
 </html>
